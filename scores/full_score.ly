@@ -65,10 +65,10 @@
   \bookpart {
     \header {
       number = "1"
-      title = "S T A B A T   M A T E R   D O L O R O S A"
+      title = "S T A B A T   M A T E R"
     }
     \paper { indent = 3\cm }
-    \tocSection "1" "Stabat mater dolorosa"
+    \tocSection "1" "Stabat mater"
     \score {
       <<
         \new ChoirStaff <<

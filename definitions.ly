@@ -474,7 +474,7 @@ bc =
   \context {
     \Score
     \compressEmptyMeasures
-    % \override BarNumber.break-visibility = #'#(#f #t #t)
+    \override BarNumber.break-visibility = #'#(#f #t #t)
   }
   \context {
     \StaffGroup
@@ -688,6 +688,7 @@ piuPE  = \dynScriptPrefix "più"  "p" ##t
 
 
 tempoStabat = \tempoMarkup "Adagio"
+  tempoPerTransivit = \tempoMarkup "Andante"
 
 
 \include "notes/S.ly"
