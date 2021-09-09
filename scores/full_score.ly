@@ -161,50 +161,96 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     number = "3"
+  %     title = "Q U I S   E S T   H O M O"
+  %   }
+  %   \tocSection "3" "Quis est homo"
+  %   \score {
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \QuisEstSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \QuisEstSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \QuisEstAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \QuisEstAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \QuisEstTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \QuisEstTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \QuisEstBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \QuisEstBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \QuisEstOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \QuisEstBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
     \header {
-      number = "3"
-      title = "Q U I S   E S T   H O M O"
+      number = "4"
+      title = "P R O   P E C C A T I S"
     }
-    \tocSection "3" "Quis est homo"
+    \tocSection "4" "Pro peccatis"
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \QuisEstSoprano }
+            \new Voice = "Soprano" { \dynamicUp \ProPeccatisSoprano }
           }
-          \new Lyrics \lyricsto Soprano \QuisEstSopranoLyrics
+          \new Lyrics \lyricsto Soprano \ProPeccatisSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \QuisEstAlto }
+            \new Voice = "Alto" { \dynamicUp \ProPeccatisAlto }
           }
-          \new Lyrics \lyricsto Alto \QuisEstAltoLyrics
+          \new Lyrics \lyricsto Alto \ProPeccatisAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \QuisEstTenore }
+            \new Voice = "Tenore" { \dynamicUp \ProPeccatisTenore }
           }
-          \new Lyrics \lyricsto Tenore \QuisEstTenoreLyrics
+          \new Lyrics \lyricsto Tenore \ProPeccatisTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \QuisEstBasso }
+            \new Voice = "Basso" { \dynamicUp \ProPeccatisBasso }
           }
-          \new Lyrics \lyricsto Basso \QuisEstBassoLyrics
+          \new Lyrics \lyricsto Basso \ProPeccatisBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \QuisEstOrgano
+            \ProPeccatisOrgano
           }
         >>
-        \new FiguredBass { \QuisEstBassFigures }
+        \new FiguredBass { \ProPeccatisBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

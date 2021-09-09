@@ -209,3 +209,60 @@ QuisEstAltoLyrics = \lyricmode {
   tem cum fi -- li --
   o? %20 finis
 }
+
+ProPeccatisAlto = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoProPeccatis
+    R1*4
+    r2 g'4.\fE d8 %5
+    es e r e f fis r fis
+    g16([ fis)] g8 d d d[ g g, f']
+    e[ a a, g'] f4 e8 a
+    a16([ g)] a8 fis fis g g r g
+    a a r a g g g g %10
+    g2 fis4 \tempoViditIesum r
+    r a8 g g16([ fis)] fis8 fis g
+    r16 as([ g as)] r as([ g as)] r g([ f g)] r g([ f g)]
+    r as([ g as)] r as[ g f] as2
+    g r4 g8 g %15
+    as as, r f' g g, r es'
+    f f, r d' es4 c~
+    c h8. h16 c4 r\fermata
+    \tempoViditSuum e4. e8 f4 f
+    r2 f4 g8([ as)] %20
+    b4 as8([ g)] g f r4
+    r2 as4\p as
+    g g g g
+    g(\crescE f) g2
+    \tempoDumEmisit r4 g8\fE g g g r4 %25
+    r g8 g as as r4
+    \tempoSpiritum es8\p r d r c r r4\fermata \bar "|." %27 finis
+  }
+}
+
+ProPeccatisAltoLyrics = \lyricmode {
+  Pro pec -- %5
+  ca -- tis, pec -- ca -- tis, pec --
+  ca -- tis, pro pec -- ca --
+  _ tis su -- ae
+  gen -- tis, pro pec -- ca -- tis, pec --
+  ca -- tis, pec -- ca -- tis su -- ae %10
+  gen -- tis
+  vi -- dit Ie -- sum in tor --
+  men -- _ _ _
+  _ _ _
+  tis et fla -- %15
+  gel -- lis, fla -- gel -- lis, fla --
+  gel -- lis ,fla -- gel -- lis __
+  sub -- di -- tum.
+  Vi -- dit su -- um
+  dul -- cem, %20
+  dul -- cem na -- tum
+  mo -- ri --
+  en -- do, de -- so --
+  la -- tum,
+  dum e -- mi -- sit, %25
+  dum e -- mi -- sit
+  spi -- ri -- tum. %27 finis
+}

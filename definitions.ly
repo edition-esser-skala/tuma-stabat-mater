@@ -691,6 +691,11 @@ tempoStabat = \tempoMarkup "Adagio"
   tempoPerTransivit = \tempoMarkup "Andante"
 tempoOQuam = \tempoMarkup "Adagio"
 tempoQuisEst = \tempoMarkup "Andante"
+tempoProPeccatis = \tempoMarkup "Vivace"
+  tempoViditIesum = \tempoMarkup "Andante"
+  tempoViditSuum = \tempoMarkup "Adagio"
+  tempoDumEmisit = \tempoMarkup "Andante"
+  tempoSpiritum = \tempoMarkup "Adagio"
 
 
 \include "notes/S.ly"

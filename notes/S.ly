@@ -93,15 +93,6 @@ StabatSopranoLyrics = \lyricmode {
   us. %36 finis
 
 
-  %
-  % Pro pec -- ca -- tis su -- ae gen -- tis
-  % vi -- dit Ie -- sum in tor -- men -- tis
-  % et fla -- gel -- lis sub -- di -- tum.
-  %
-  % Vi -- dit su -- um dul -- cem na -- tum
-  % mo -- ri -- en -- tem, de -- so -- la -- tum,
-  % dum e -- mi -- sit spi -- ri -- tum.
-  %
   % E -- ia, ma -- ter, fons a -- mo -- ris,
   % me sen -- ti -- re vim do -- lo -- ris
   % fac, ut te -- cum lu -- ge -- am.
@@ -266,4 +257,57 @@ QuisEstSopranoLyrics = \lyricmode {
   tem, do -- len --
   tem cum fi -- li --
   o? %20 finis
+}
+
+ProPeccatisSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoProPeccatis
+    R1*6 %6
+    d'4.\fE g,8 b h r h
+    c cis r cis d c16([ b)] a([ g)] f([ e)]
+    f([ e)] d8 a' a g[ c c, b']
+    a[ d d, c'] b4 b8 b %10
+    b2 a4 \tempoViditIesum r
+    r d8 b b16([ a)] a8 d es
+    f2 es4 es~
+    es des8[( c]) h2
+    h r4 c8 es %15
+    f f, r d' es es, r c'
+    d d, r h' c4 es,
+    d4. d8 c4 r\fermata
+    \tempoViditSuum c'4. c8 c8([ b)] b4
+    b8([ c)] c([ des)] \once \tieDashed des2~ %20
+    des4 c8[ b] as4 r
+    c\p c c2
+    h c4 c
+    c2\cresc h
+    \tempoDumEmisit r4 h8\f h c16([ d)] es8 r4
+    r c8 c c16([ b)] c8 r4
+    \tempoSpiritum g8\p r g r g r r4\fermata \bar "|."
+  }
+}
+
+ProPeccatisSopranoLyrics = \lyricmode {
+  Pro pec -- ca -- tis, pec -- %7
+  ca -- tis, pec -- ca -- tis su -- ae
+  gen -- tis, pro pec -- ca --
+  _ tis su -- ae %10
+  gen -- tis
+  vi -- dit Ie -- sum in tor --
+  men -- tis, in __
+  tor -- men --
+  tis et fla -- %15
+  gel -- lis, fla -- gel -- lis, fla --
+  gel -- lis, fla -- gel -- lis
+  sub -- di -- tum.
+  Vi -- dit su -- um
+  dul -- cem na -- %20
+  _ tum
+  mo -- ri -- en --
+  do, de -- so --
+  la -- tum,
+  dum e -- mi -- sit, %25
+  dum e -- mi -- sit
+  spi -- ri -- tum. %27 finis
 }

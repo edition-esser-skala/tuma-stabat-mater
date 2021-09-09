@@ -186,3 +186,67 @@ QuisEstBassoLyrics = \lyricmode {
   tem cum fi -- li --
   o? %20 finis
 }
+
+ProPeccatisBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoProPeccatis
+    g'4\f r8 d es e r e
+    f fis r fis g f?16([ es)] d([ c)] b([ a)]
+    b([ a)] g8 es'8 c g'[ g g, f']
+    e[ a a, g'] fis g c,4
+    c b8 h c4 g' %5
+    c,4. c8 d2
+    g,4 r r2
+    R1
+    d'4. d8 es e r e
+    f fis r fis g f?16([ es)] d([ c)] b([ a)] %10
+    g2 d'4 \tempoViditIesum r
+    r fis8 g d d d c
+    h2 c
+    f,4 f f2
+    f r4 es'8 c' %15
+    as16[ c f, as] d,[ f b, b'] g[ b es, g] c,[ es as, as']
+    f[ as d, f] h,[ d g, g'] es[ c es g] c8 c,
+    g4. g8 c4 r\fermata
+    \tempoViditSuum c4. c8 des4 des
+    r2 b'8([ as)] g([ f)] %20
+    e2 f4 r
+    r2 f4\p f
+    f f es c
+    as2\cresc g
+    \tempoDumEmisit r4 g'8\f f es c r4 %25
+    r c'8 b as f r4
+    \tempoSpiritum g,8\p r g r c r r4\fermata \bar "|." %27 finis
+  }
+}
+
+ProPeccatisBassoLyrics = \lyricmode {
+  Pro pec -- ca -- tis, pec --
+  ca -- tis, pec -- ca -- tis su -- ae
+  gen -- tis, pro pec -- ca --
+  _ _ tis, pec --
+  ca -- tis, pec -- ca -- tis %5
+  su -- ae gen --
+  tis,
+
+  pro pec -- ca -- tis, pec --
+  ca -- tis, pec -- ca -- tis su -- ae %10
+  gen -- tis
+  vi -- dit Ie -- sum in tor --
+  men -- tis,
+  in tor -- men --
+  tis et fla -- %15
+  gel -- _ _ _
+  _ _ _ _ lis
+  sub -- di -- tum.
+  Vi -- dit su -- um
+  dul -- cem %20
+  na -- tum
+  mo -- ri --
+  en -- do, de -- so --
+  la -- tum,
+  dum e -- mi -- sit, %25
+  dum e -- mi -- sit
+  spi -- ri -- tum. %27 finis
+}

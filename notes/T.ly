@@ -210,3 +210,64 @@ QuisEstTenoreLyrics = \lyricmode {
   tem cum fi -- li --
   o? %20 finis
 }
+
+ProPeccatisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \minor \time 4/4 \autoBeamOff \tempoProPeccatis
+    R1*2
+    d4\fE r8 g, b h r h
+    c cis r cis d c16([ b)] a([ g)] fis([ e)]
+    fis([ e)] d8 d' d es([ d16 c] h[ c a h]) %5
+    c8 c c,[ b'] a[ d d, c']
+    b[ b16 a] b8. a16 g4. g8
+    a4. a8 b d cis4
+    d d8 d b g r c
+    c a r d d d d d %10
+    d2 d4 \tempoViditIesum d8 b
+    b16([ a)] a8 d d d d d d
+    r16 d([ es d)] r d([ es d)] r^\critnote c([ d c)] r c([ d c)]
+    r c([ des c)] f8[ es] d?2
+    d r4 c8 c %15
+    c16([ as)] c8 r b b16([ g)] b8 r as
+    as16([ f)] as8 r g g16([ es)] g8 r4
+    g4. g8 g4 r\fermata
+    \tempoViditSuum g4. c8 f,4 f
+    r2 b4. as8 %20
+    g4( c) c r
+    r2 c4\p c
+    d d es es
+    es(\crescE d8[ c)] d2
+    \tempoDumEmisit r4 d8\fE d c16([ h)] c8 r4 %25
+    r e8 e f c r4
+    \tempoSpiritum c4.\p h8 c r r4\fermata \bar "|." %27 finis
+  }
+}
+
+ProPeccatisTenoreLyrics = \lyricmode {
+  Pro pec -- ca -- tis, pec -- %3
+  ca -- tis, pec -- ca -- tis su -- ae
+  gen -- tis, pro pec -- ca -- %5
+  tis, pec -- ca -- _
+  _ _ tis, pro pec --
+  ca -- tis su -- ae gen --
+  tis, pro pec -- ca -- tis, pec --
+  ca -- tis, pec -- ca -- tis su -- ae %10
+  gen -- tis, vi -- dit
+  Ie -- sum, vi -- dit Ie -- sum in tor --
+  men -- _ _ _
+  _ _ _
+  tis et fla -- %15
+  gel -- lis, fla -- gel -- lis, fla --
+  gel -- lis, fla -- gel -- lis
+  sub -- di -- tum.
+  Vi -- dit su -- um
+  dul -- cem %20
+  na -- tum
+  mo -- ri --
+  en -- do, de -- so --
+  la -- tum,
+  dum e -- mi -- sit, %25
+  dum e -- mi -- sit
+  spi -- ri -- tum. %27 finis
+}

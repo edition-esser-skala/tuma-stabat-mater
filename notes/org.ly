@@ -199,3 +199,63 @@ QuisEstBassFigures = \figuremode {
   r2 \bo <[5!] 4>4 \bc <[\t] _+>
   r1 %20 finis
 }
+
+ProPeccatisOrgano = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoProPeccatis
+    g'4-!\f r8 d-! es-! e-! r e-!
+    f-! fis-! r fis g f?16 es d c b a
+    b8 a16 g es'8 c g' g g, f'
+    e a a, g' fis g c,4~
+    c b8 h c4 g' %5
+    c,4. c8 d2
+    g,4 \clef "treble_8" b'8. a16 g4. g8
+    a4. a8 b d cis4
+    \clef bass d,4. d8 es e r e
+    f fis r fis g f16 es d c b a %10
+    g2 d'4 \tempoViditIesum r
+    r fis8 g d4 d8 c
+    h2 c
+    f, f
+    f r4 es'8 c' %15
+    as16-! c-! f,-! as-! d,-! f-! b,-! b'-! g-! b-! es,-! g-! c,-! es-! as,-! as'-!
+    f-! as-! d,-! f-! h,-! d-! g,-! g'-! es-! c-! es-! g-! c8 c,
+    g2 c4 r\fermata
+    \tempoViditSuum c2 des
+    r b'8([ as)] g([ f)] %20
+    e2 f4 r
+    R1*3
+    \tempoDumEmisit r4 g8\f f es c r4 %25
+    r c'8 b as f r4
+    \tempoSpiritum R1\fermata \bar "|." %27 finis
+  }
+}
+
+ProPeccatisBassFigures = \figuremode {
+  r1
+  r
+  <6>4. <5>8 <_-> <_!>4 <[\t]>8
+  <6> <_+>4 <[\t]>8 <6> <3> <6> <5>
+  <4+ 2>4 <6>8 <5> r4 <_!> %5
+  <_->8 <_!>4. <_!>8 <_+>4.
+  r4 <6> <_->8 <_!>4.
+  <5! _!>8 <\t _+> r2 <6 [_!]>4
+  <_!>4 <_+> <5>8 <6>4 <[6 5]>8
+  <5> <6>4 <6 5>8 r2 %10
+  r <_+>
+  r4 <6> \bo <[6 4]>8 \bc <[5 _+]>4.
+  <7- 5>2 <5>
+  <7 \l _->4 \bassFigureExtendersOn \bo <[8] 6- _->8 <7 5 _-> <6! 4! _->2 \bassFigureExtendersOff
+  \bc <[\t] \t 2>2. <6>4 %15
+  <6>4 <[6]> <6> <[6-]>
+  <6 [_-]> <[6]> <6>2
+  <4>4 <_!>2.
+  q2 <7>8 <6>4.
+  r2 <_->4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %20
+  <7- 5>4 \bo <[6 4-]>8 \bc <[5 3]> <10- 9> <\t 8>4.
+  r1*3
+  r4 <_!> <6>2 %25
+  r4 <_!> <6>8 <[_-]> r4
+  r1 %27 finis
+}
