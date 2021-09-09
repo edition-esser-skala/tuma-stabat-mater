@@ -92,15 +92,6 @@ StabatSopranoLyrics = \lyricmode {
   _ _ di -- %35
   us. %36 finis
 
-
-  % E -- ia, ma -- ter, fons a -- mo -- ris,
-  % me sen -- ti -- re vim do -- lo -- ris
-  % fac, ut te -- cum lu -- ge -- am.
-  %
-  % Fac, ut ar -- de -- at cor me -- um
-  % in a -- man -- do Chri -- stum De -- um,
-  % ut si -- bi com -- pla -- ce -- am.
-  %
   % San -- cta ma -- ter, i -- stud a -- gas,
   % cru -- ci -- fi -- xi fi -- ge pla -- gas
   % cor -- di me -- o va -- li -- de.
@@ -310,4 +301,100 @@ ProPeccatisSopranoLyrics = \lyricmode {
   dum e -- mi -- sit, %25
   dum e -- mi -- sit
   spi -- ri -- tum. %27 finis
+}
+
+EiaMaterSoprano = {
+  \relative c' {
+    \clef treble
+    \key es \lydian \time 3/4 \autoBeamOff \tempoEiaMater
+    r4 es'\fE b
+    c b es~
+    es d8[ c] b([ as)]
+    as4 g es'~
+    es as, g %5
+    g f r
+    r b b
+    c8([ a!)] b4 r
+    r es es
+    es f, es' %10
+    des2.
+    ces
+    b~
+    b4 a! r
+    c( d!) b %15
+    a8([ g)] f4 r
+    c'( des) b
+    a c d
+    es!2.
+    d4 des( es8) c %20
+    b2 r4
+    r b c
+    des4. b8 es des
+    des([ h)] c4 r
+    des2. %25
+    c
+    b
+    as2 r4
+    b2 es4
+    d8([ c)] b4 r %30
+    b2.
+    b
+    b
+    b4 b b
+    as g b %35
+    des c es8([ c)]
+    a!4 b f'8([ d)]
+    b4( as) g
+    c8([ as)] g4 f
+    es8[ g as b c d] %40
+    es[ d] es4 r
+    c8([ as)] g4( as8) f
+    es4 r r\fermata \bar "|." %43 finis
+  }
+}
+
+EiaMaterSopranoLyrics = \lyricmode {
+  E -- ia,
+  ma -- ter, fons __
+  _ a --
+  mo -- ris, fons __
+  _ a -- %5
+  mo -- ris,
+  me sen --
+  ti -- re
+  vim do --
+  lo -- _ _ %10
+  _
+  _
+  _
+  ris,
+  fac, __ ut %15
+  te -- cum
+  lu -- ge --
+  am, fac, ut
+  te --
+  cum lu -- ge -- %20
+  am.
+  Fac, ut
+  ar -- de -- at cor
+  me -- um
+  in %25
+  a --
+  man --
+  do
+  Chri -- stum
+  De -- um, %30
+  in
+  a --
+  man --
+  do Chri -- stum
+  De -- um, ut %35
+  si -- bi, ut
+  si -- bi, ut
+  si -- bi
+  com -- pla -- ce --
+  am, __ %40
+  _ _
+  com -- pla -- ce --
+  am. %43 finis
 }

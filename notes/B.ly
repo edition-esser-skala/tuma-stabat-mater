@@ -250,3 +250,99 @@ ProPeccatisBassoLyrics = \lyricmode {
   dum e -- mi -- sit
   spi -- ri -- tum. %27 finis
 }
+
+EiaMaterBasso = {
+  \relative c {
+    \clef bass
+    \key es \lydian \time 3/4 \autoBeamOff \tempoEiaMater
+    r4 es\fE es
+    as, es' g,(
+    as) b2
+    es8([ d)] es4 r
+    as,2 a4 %5
+    b b r
+    d2 d4
+    es d2
+    c b4
+    a!2. %10
+    b4 des b
+    es( f des)
+    ges ges f
+    e f r
+    a, b2 %15
+    f'4 f, r
+    a b2
+    f'4 f, r
+    r g' a
+    b f4. f8 %20
+    b,2 r4
+    r g' g
+    g4. g8 es es
+    as4 as, r
+    f'( g) es %25
+    as2 f4
+    d!( e) c
+    f f, r
+    d'( es) c
+    b b r %30
+    d es2
+    b4 b r
+    d es2
+    b2.
+    b4 es r %35
+    g, as r
+    c d r
+    d2 es4
+    as, b as
+    g r r %40
+    c c r
+    as b4. b8
+    es,4 r r\fermata \bar "|." %43 finis
+  }
+}
+
+EiaMaterBassoLyrics = \lyricmode {
+  E -- ia,
+  ma -- ter, fons __
+  a --
+  mo -- ris,
+  fons a -- %5
+  mo -- ris,
+  me sen --
+  ti -- re
+  vim do --
+  lo -- %10
+  ris, vim do --
+  lo --
+  ris, vim do --
+  lo -- ris,
+  fac, ut %15
+  te -- cum,
+  fac, ut
+  te -- cum,
+  ut te --
+  cum lu -- ge -- %20
+  am.
+  Fac, ut
+  ar -- de -- at cor
+  me -- um
+  in __ a -- %25
+  man -- do
+  Chri -- stum
+  De -- um,
+  in __ a --
+  man -- do, %30
+  in a --
+  man -- do
+  Chri -- stum
+  De --
+  um, ut %35
+  si -- bi,
+  si -- bi,
+  si -- bi
+  com -- pla -- ce --
+  am, %40
+  si -- bi
+  com -- pla -- ce --
+  am. %43 finis
+}

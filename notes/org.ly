@@ -259,3 +259,99 @@ ProPeccatisBassFigures = \figuremode {
   r4 <_!> <6>8 <[_-]> r4
   r1 %27 finis
 }
+
+EiaMaterOrgano = {
+  \relative c {
+    \clef bass
+    \key es \lydian \time 3/4 \tempoEiaMater
+    es2.\fE
+    as,4 es' g,
+    as b2
+    es g,4
+    as2 a4 %5
+    b b c
+    d2 r4
+    es d2
+    c b4
+    a!2. %10
+    b4 des b
+    es f des
+    ges ges f
+    e f r
+    a, b2 %15
+    f'4 f, r
+    a b2
+    f'4 f, r
+    r g' a
+    b f f, %20
+    b2 r4
+    g2 r4
+    g2 r4
+    as2 r4
+    f' g es %25
+    as as f
+    d!( e) c
+    f f es
+    d( es) c
+    b b c %30
+    d es2
+    b4 r r
+    d es2
+    b r4
+    b es r %35
+    g, as r
+    c d r
+    d2 es4
+    as, b as
+    g r r %40
+    c2 r4
+    as b2
+    es,4 r r\fermata \bar "|." %43 finis
+  }
+}
+
+EiaMaterBassFigures = \figuremode {
+  r2.
+  r2 <6>4
+  <6 5> <7->2
+  <9 4->4 <8 3> <6>
+  <6 5>2 <7 5>4 %5
+  <6 4> <5 3> <[6]>
+  <6>2.
+  q4 q2
+  r2 <[4] 2>4
+  <6 5>2. %10
+  <_->4 <6> <[_-]>
+  <6- 5 _-> <6- 5- _-> <7- [5-]>
+  <9- 5-> <8 \t> <\t \t>
+  <6! 5!> <_!>2
+  <6>4 <_!>2 %15
+  r4 <6>2
+  <6>4 <_->2
+  r2.
+  r4 <6> <[6 5]>
+  r <6- 4> <[5] 3> %20
+  r2.
+  <6>
+  <6 5->
+  <4->4 <3>2
+  <6- 5 _->4 <6 5-> <7-> %25
+  <9> <8> <[_-]>
+  <6 5-> <6 5> <\t \t>
+  <10- 9>4 <\t 8> <\t \t>
+  <6>2 <6!>4
+  r2 <[6]>4 %30
+  <6>2.
+  r
+  <6>
+  r
+  <7-> %35
+  <6 5->
+  <6!>4 <6>2
+  <6>4 <5->2
+  r4 <6 [4]> <6 4 2>
+  <6>2. %40
+  r
+  r4 <6 4> <5 3>
+  r2. %43 finis
+}

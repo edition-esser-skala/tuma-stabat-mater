@@ -271,3 +271,99 @@ ProPeccatisTenoreLyrics = \lyricmode {
   dum e -- mi -- sit
   spi -- ri -- tum. %27 finis
 }
+
+EiaMaterTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key es \lydian \time 3/4 \autoBeamOff \tempoEiaMater
+    r4 b\fE es
+    es2 b4
+    c b2
+    b4 b r
+    c2 c4 %5
+    b b r
+    b d2
+    c4 d2
+    es4 c2
+    c2. %10
+    b4 f'2
+    es4 des2~
+    des2.
+    c!2 r4
+    R2. %15
+    c4( d) b
+    a8([ g)] f4 des'
+    c f, r
+    r b c
+    b2 a4 %20
+    b2 r4
+    r b b
+    b4. es8 es es
+    es4 es r
+    as, es'2 %25
+    es f4~
+    f c c
+    c c r
+    b( g) a!
+    b8([ c)] d4 r %30
+    R2.
+    f4( g) es
+    d8([ c)] b4 r
+    r d2
+    b4 b r %35
+    b c r
+    c b r
+    b2 b4
+    c b4. b8
+    b4 r r %40
+    g g r
+    c b4. b8
+    b4 r r\fermata \bar "|." %43 finis
+  }
+}
+
+EiaMaterTenoreLyrics = \lyricmode {
+  E -- ia,
+  ma -- ter,
+  fons a --
+  mo -- ris,
+  fons a -- %5
+  mo -- ris,
+  me sen --
+  ti -- re
+  vim do --
+  lo -- %10
+  ris, vim
+  do -- lo --
+
+  ris,
+  %15
+  fac, __ ut
+  te -- cum, ut
+  te -- cum,
+  te -- cum
+  lu -- ge -- %20
+  am.
+  Fac, ut
+  ar -- de -- at cor
+  me -- um
+  in a -- %25
+  man -- do __
+  Chri -- stum
+  De -- um,
+  in __ a --
+  man -- do %30
+
+  Chri -- stum
+  De -- um,
+  ut
+  si -- bi, %35
+  si -- bi,
+  si -- bi,
+  si -- bi
+  com -- pla -- ce --
+  am, %40
+  si -- bi
+  com -- pla -- ce --
+  am. %43 finis
+}

@@ -207,50 +207,96 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     number = "4"
+  %     title = "P R O   P E C C A T I S"
+  %   }
+  %   \tocSection "4" "Pro peccatis"
+  %   \score {
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \ProPeccatisSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \ProPeccatisSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \ProPeccatisAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \ProPeccatisAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \ProPeccatisTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \ProPeccatisTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \ProPeccatisBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \ProPeccatisBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \ProPeccatisOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \ProPeccatisBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
     \header {
-      number = "4"
-      title = "P R O   P E C C A T I S"
+      number = "5"
+      title = "E I A   M A T E R"
     }
-    \tocSection "4" "Pro peccatis"
+    \tocSection "5" "Eia mater"
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \ProPeccatisSoprano }
+            \new Voice = "Soprano" { \dynamicUp \EiaMaterSoprano }
           }
-          \new Lyrics \lyricsto Soprano \ProPeccatisSopranoLyrics
+          \new Lyrics \lyricsto Soprano \EiaMaterSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \ProPeccatisAlto }
+            \new Voice = "Alto" { \dynamicUp \EiaMaterAlto }
           }
-          \new Lyrics \lyricsto Alto \ProPeccatisAltoLyrics
+          \new Lyrics \lyricsto Alto \EiaMaterAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \ProPeccatisTenore }
+            \new Voice = "Tenore" { \dynamicUp \EiaMaterTenore }
           }
-          \new Lyrics \lyricsto Tenore \ProPeccatisTenoreLyrics
+          \new Lyrics \lyricsto Tenore \EiaMaterTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \ProPeccatisBasso }
+            \new Voice = "Basso" { \dynamicUp \EiaMaterBasso }
           }
-          \new Lyrics \lyricsto Basso \ProPeccatisBassoLyrics
+          \new Lyrics \lyricsto Basso \EiaMaterBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \ProPeccatisOrgano
+            \EiaMaterOrgano
           }
         >>
-        \new FiguredBass { \ProPeccatisBassFigures }
+        \new FiguredBass { \EiaMaterBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

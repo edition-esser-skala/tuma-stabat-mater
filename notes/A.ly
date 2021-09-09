@@ -266,3 +266,99 @@ ProPeccatisAltoLyrics = \lyricmode {
   dum e -- mi -- sit
   spi -- ri -- tum. %27 finis
 }
+
+EiaMaterAlto = {
+  \relative c' {
+    \clef treble
+    \key es \lydian \time 3/4 \autoBeamOff \tempoEiaMater
+    r4 g'\fE g
+    as g r
+    f2 f4
+    f es r
+    f2 es4 %5
+    es d r
+    f2 f4
+    g f2
+    g g4
+    f2. %10
+    f4 b2~
+    b4 as2~
+    as4 ges2(
+    g4) f r
+    f2. %15
+    f
+    f
+    f4 r r
+    r g f
+    f f4. f8 %20
+    f2 r4
+    r es es
+    es4. es8 g g
+    as4 as c~
+    c b2~ %25
+    b4 as2~
+    as4 g2~
+    g4 f r
+    f es2
+    f4 f r %30
+    f( g) es
+    d8([ c)] b4 r
+    f'( g) es
+    d8([ c)] b4 f'
+    f es r %35
+    es es r
+    es f r
+    f2 es4
+    es es d
+    es r r %40
+    c2 r4
+    es2 d4
+    es r r\fermata \bar "|." %43 finis
+  }
+}
+
+EiaMaterAltoLyrics = \lyricmode {
+  E -- ia,
+  ma -- ter,
+  fons a --
+  mo -- ris,
+  fons a -- %5
+  mo -- ris,
+  me sen --
+  ti -- re
+  vim do --
+  lo -- %10
+  ris, vim __
+  do --
+  lo --
+  ris,
+  fac, %15
+  ut
+  te --
+  cum,
+  ut te --
+  cum lu -- ge -- %20
+  am.
+  Fac, ut
+  ar -- de -- at cor
+  me -- um in __
+  a -- %25
+  man --
+  _
+  do
+  Chri -- stum
+  De -- um, %30
+  in __ a --
+  man -- do
+  Chri -- stum
+  De -- um, ut
+  si -- bi, %35
+  si -- bi,
+  si -- bi,
+  si -- bi
+  com -- pla -- ce --
+  am, %40
+  com --
+  pla -- ce --
+  am. %43 finis
+}

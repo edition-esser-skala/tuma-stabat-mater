@@ -696,6 +696,7 @@ tempoProPeccatis = \tempoMarkup "Vivace"
   tempoViditSuum = \tempoMarkup "Adagio"
   tempoDumEmisit = \tempoMarkup "Andante"
   tempoSpiritum = \tempoMarkup "Adagio"
+tempoEiaMater = \tempoMarkup "Larghetto"
 
 
 \include "notes/S.ly"
