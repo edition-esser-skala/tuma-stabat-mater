@@ -62,57 +62,103 @@
 #(set-global-staff-size 15.87)
 
 \book {
+  % \bookpart {
+  %   \header {
+  %     number = "1"
+  %     title = "S T A B A T   M A T E R"
+  %   }
+  %   \paper { indent = 3\cm }
+  %   \tocSection "1" "Stabat mater"
+  %   \score {
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \SopranoIncipit
+  %           \override Staff.InstrumentName.self-alignment-Y = ##f
+  %           \override Staff.InstrumentName.self-alignment-X = #RIGHT
+  %           \new Voice = "Soprano" { \dynamicUp \StabatSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \StabatSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = \AltoIncipit
+  %           \override Staff.InstrumentName.self-alignment-Y = ##f
+  %           \override Staff.InstrumentName.self-alignment-X = #RIGHT
+  %           \new Voice = "Alto" { \dynamicUp \StabatAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \StabatAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = \TenoreIncipit
+  %           \override Staff.InstrumentName.self-alignment-Y = ##f
+  %           \override Staff.InstrumentName.self-alignment-X = #RIGHT
+  %           \new Voice = "Tenore" { \dynamicUp \StabatTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \StabatTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Basso"
+  %           \new Voice = "Basso" { \dynamicUp \StabatBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \StabatBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+  %           % \transpose c c,
+  %           \StabatOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \StabatBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
     \header {
-      number = "1"
-      title = "S T A B A T   M A T E R"
+      number = "2"
+      title = "O   Q U A M   T R I S T I S"
     }
-    \paper { indent = 3\cm }
-    \tocSection "1" "Stabat mater"
+    \tocSection "2" "O quam tristis"
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \SopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Soprano" { \dynamicUp \StabatSoprano }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \OQuamSoprano }
           }
-          \new Lyrics \lyricsto Soprano \StabatSopranoLyrics
+          \new Lyrics \lyricsto Soprano \OQuamSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \AltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Alto" { \dynamicUp \StabatAlto }
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \OQuamAlto }
           }
-          \new Lyrics \lyricsto Alto \StabatAltoLyrics
+          \new Lyrics \lyricsto Alto \OQuamAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \TenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
-            \new Voice = "Tenore" { \dynamicUp \StabatTenore }
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \OQuamTenore }
           }
-          \new Lyrics \lyricsto Tenore \StabatTenoreLyrics
+          \new Lyrics \lyricsto Tenore \OQuamTenoreLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \StabatBasso }
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \OQuamBasso }
           }
-          \new Lyrics \lyricsto Basso \StabatBassoLyrics
+          \new Lyrics \lyricsto Basso \OQuamBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \StabatOrgano
+            \OQuamOrgano
           }
         >>
-        \new FiguredBass { \StabatBassFigures }
+        \new FiguredBass { \OQuamBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

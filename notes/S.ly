@@ -92,14 +92,6 @@ StabatSopranoLyrics = \lyricmode {
   _ _ di -- %35
   us. %36 finis
 
-  % O quam tri -- stis et af -- fli -- cta
-  % fu -- it il -- la be -- ne -- di -- cta
-  % ma -- ter u -- ni -- ge -- ni -- ti!
-  %
-  % Quae mae -- re -- bat et do -- le -- bat,
-  % pi -- a ma -- ter cum vi -- de -- bat
-  % na -- ti poe -- nas in -- cli -- ti.
-  %
   % Quis est ho -- mo, qui non fle -- ret,
   % ma -- trem Chri -- sti si vi -- de -- ret
   % in tan -- to sup -- pli -- ci -- o?
@@ -163,4 +155,71 @@ StabatSopranoLyrics = \lyricmode {
   % Quan -- do cor -- pus mo -- ri -- e -- tur,
   % fac ut a -- ni -- ma do -- ne -- tur
   % pa -- ra -- di -- si glo -- ri -- ae.
+}
+
+OQuamSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \phrygian \time 3/4 \autoBeamOff \tempoOQuam
+    R2.
+    r4 b'\fE b
+    b8([ a)] a4 r
+    r es'! d
+    d8([ cis)] cis4 r %5
+    c c cis
+    d f e8([ d)]
+    cis4 r r
+    r d8([ c)] b([ a)]
+    b[ es d( c) b( a)] %10
+    b([ a)] g4 r
+    r r f'
+    \tuplet 3/2 4 { es8([ d c)] } f2
+    es4 r c
+    as8([ b)] c2 %15
+    c4 c c
+    c( fis) c
+    h( d) f
+    e c( b)
+    a( c) es %20
+    d2.
+    d2 d4
+    cis r r
+    r f f
+    \tuplet 3/2 4 { f8([ e d)] } d4 r %25
+    r f f
+    \tuplet 3/2 4 { f8([ e d)] } d2~
+    d4 cis4. cis8
+    d2 r4\fermata \bar "|." %29 finis
+  }
+}
+
+OQuamSopranoLyrics = \lyricmode {
+  Et af -- %2
+  fli -- cta
+  be -- ne --
+  di -- cta %5
+  ma -- ter u --
+  ni -- ge -- ni --
+  ti!
+  Quae mae --
+  re -- %10
+  _ bat
+  et
+  do -- le --
+  bat, dum
+  vi -- de -- %15
+  bat na -- ti
+  poe -- _
+  _ _
+  _ _
+  _ _ %20
+  nas
+  in -- cly --
+  ti,
+  na -- ti
+  poe -- nas, %25
+  na -- ti
+  poe -- nas __
+  in -- cly --
+  ti. %29 finis
 }

@@ -81,3 +81,71 @@ StabatBassFigures = \figuremode {
   <6 4>4 <5 _+>8 <4 2!> <5 _+>2 %35
   r1 %36 finis
 }
+
+OQuamOrgano = {
+  \relative c {
+    \clef bass
+    \key d \phrygian \time 3/4 \tempoOQuam
+    d2\fE r4
+    e2 r4
+    f2 fis4
+    g r gis
+    a2 r4 %5
+    a2 a4
+    b2 b,4
+    a a' g
+    fis2 r4
+    g fis2 %10
+    g4 g es
+    h2 r4
+    c h2
+    c4 c e
+    f e2 %15
+    f4 f es
+    d2.
+    g,4 r r
+    c2.
+    f,4 r r %20
+    b2 a4
+    gis2.
+    a4 a a
+    a2.
+    b4 b a %25
+    g a2
+    b a4
+    gis a2
+    d, r4\fermata \bar "|." %29 finis
+  }
+}
+
+OQuamBassFigures = \figuremode {
+  r2.
+  <7 5>4 <6\\ \t>2
+  <9 4>4 <8 3> <5!>
+  \bo <[5] 4> \bc <[6-] 3> <7 5 [_!]>
+  <6 4> <5! _+>2 %5
+  <6 _!> <\t _+>4
+  <7>2 <6>4
+  \bo <[5!] _+>2 \bc <[6!] 4! 2>4
+  <6 5>2.
+  <5>8 <6> <6>4 <5> %10
+  r <_!> <6>
+  <6 5>2.
+  r4 <[6 5]>2
+  r <6>4
+  <5 _->8 <6- [4]> <6>4 <5> %15
+  <_->2 <4! 2>4
+  <7 _+>2.
+  <_!>
+  <7- _!>
+  <7-> %20
+  r2 <[6 4]>4
+  \bo <7 5 [_!]>2 \bc <6 \t [\t]>4
+  <5! _+>2.
+  <6 _+>
+  r2 <3!>4 %25
+  <_-> <6 _+>2
+  r2 <[6 4]>4
+  <6 5 [_!]> \bo <[5!] 4> \bc <[\t] _+>
+  r2. %29 finis
+}
