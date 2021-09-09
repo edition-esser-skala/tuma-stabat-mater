@@ -159,3 +159,53 @@ OQuamAltoLyrics = \lyricmode {
   in -- cly --
   ti. %29 finis
 }
+
+QuisEstAlto = {
+  \relative c' {
+    \clef treble
+    \key d \phrygian \time 4/4 \autoBeamOff \tempoQuisEst
+    r4 f8\fE f f e e a
+    a f a a a4 b8([\p a)]
+    r4 a8([\p g)] r4 g8([\p f)]
+    f16([\fE e) f( e)] f4 e e8 e
+    g g g e f16([ e)] f8 r4 %5
+    r f\p fis2~
+    fis1\crescE
+    fis4\fE g fis( gis)
+    a2 a
+    a4 g a2\fermata %10
+    r4 a8 a a4 a
+    g g es( d)
+    d2 r4 g8 g
+    g4 g f f
+    d( c) c2 %15
+    r4 e f( g)
+    a r8 a gis4( g)
+    f e fis( gis)
+    a8([ g)] f4 e4. e8
+    d2 r\fermata \bar "|." %20 finis
+  }
+}
+
+QuisEstAltoLyrics = \lyricmode {
+  Quis est ho -- mo, quis est
+  ho -- mo, qui non fle -- _
+  _ _
+  _ _ ret, ma -- trem
+  Chri -- sti si vi -- de -- ret %5
+  in tan --
+
+  to, in tan --
+  to sup --
+  pli -- ci -- o? %10
+  Quis non pos -- set
+  con -- tri -- sta --
+  ri, Chri -- sti
+  ma -- trem con -- tem --
+  pla -- ri %15
+  do -- len --
+  tem, do -- len --
+  tem, do -- len --
+  tem cum fi -- li --
+  o? %20 finis
+}

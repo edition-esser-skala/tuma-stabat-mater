@@ -92,13 +92,7 @@ StabatSopranoLyrics = \lyricmode {
   _ _ di -- %35
   us. %36 finis
 
-  % Quis est ho -- mo, qui non fle -- ret,
-  % ma -- trem Chri -- sti si vi -- de -- ret
-  % in tan -- to sup -- pli -- ci -- o?
-  %
-  % Quis non pos -- set con -- tri -- sta -- ri,
-  % pi -- am ma -- trem con -- tem -- pla -- ri
-  % do -- len -- tem cum fi -- li -- o?
+
   %
   % Pro pec -- ca -- tis su -- ae gen -- tis
   % vi -- dit Ie -- sum in tor -- men -- tis
@@ -222,4 +216,54 @@ OQuamSopranoLyrics = \lyricmode {
   poe -- nas __
   in -- cly --
   ti. %29 finis
+}
+
+QuisEstSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \phrygian \time 4/4 \autoBeamOff \tempoQuisEst
+    r2 r4 a'8\fE cis
+    d d, d' d d([ cis)] r4
+    c8([ h)] r4 b8([ a)] r4
+    d16([ cis) d( cis)] d4 cis a8 a
+    b! h c cis d16([ cis]) d8 a4\p %5
+    d1
+    dis\cresc
+    dis4\f e2 d?4~
+    d c cis2
+    d4. d8 cis2\fermata %10
+    r4 c8 c c4 c
+    b8([ c)] b4 as8([ g)] g([ fis)]
+    g([ fis)] g4 r b8 b
+    b4 b a8([ b)] a4
+    g8([ f)] f([ e)] f([ e)] f a %15
+    h4( cis d2)
+    cis4 r8 cis d4( e)
+    a, cis d( h)
+    cis d d( cis8.) cis16
+    d2 r\fermata \bar "|." %20 finis
+  }
+}
+
+QuisEstSopranoLyrics = \lyricmode {
+  Quis est
+  ho -- mo, qui non fle --
+  _ _
+  _ _ ret, ma -- trem
+  Chri -- sti si vi -- de -- ret in %5
+  tan --
+  _
+  to, in tan --
+  to sup --
+  pli -- ci -- o? %10
+  Quis non pos -- set
+  con -- tri -- sta -- _
+  _ ri, Chri -- sti
+  ma -- trem con -- tem --
+  pla -- _ _ ri do -- %15
+  len --
+  tem, do -- len --
+  tem, do -- len --
+  tem cum fi -- li --
+  o? %20 finis
 }

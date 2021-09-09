@@ -690,6 +690,7 @@ piuPE  = \dynScriptPrefix "più"  "p" ##t
 tempoStabat = \tempoMarkup "Adagio"
   tempoPerTransivit = \tempoMarkup "Andante"
 tempoOQuam = \tempoMarkup "Adagio"
+tempoQuisEst = \tempoMarkup "Andante"
 
 
 \include "notes/S.ly"

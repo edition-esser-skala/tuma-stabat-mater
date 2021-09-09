@@ -149,3 +149,53 @@ OQuamBassFigures = \figuremode {
   <6 5 [_!]> \bo <[5!] 4> \bc <[\t] _+>
   r2. %29 finis
 }
+
+QuisEstOrgano = {
+  \relative c {
+    \clef bass
+    \key d \phrygian \time 4/4 \tempoQuisEst
+    r4 d8\fE f a a, a' g
+    f4 d8 f a4 r
+    fis8( g) r4 e8( f?) r4
+    b8 a gis4 a a
+    g8 f e a f d r4 %5
+    r d\p \once \tieDashed c2~
+    c1\cresc
+    h\f
+    a
+    b!2 a\fermata %10
+    r4 a'8 g fis2
+    g c,4 d
+    g,2 r4 g'8 f!
+    e2 f
+    b,4 c f, f' %15
+    e2 d4 b!
+    a1~-\tasto
+    \once \tieDashed a~
+    a
+    d,2 r\fermata \bar "|." %20 finis
+  }
+}
+
+QuisEstBassFigures = \figuremode {
+  r2 <6 4>8 <5! _+>4 <\t \t>8
+  <6>2 <5! 4>8 <\t _+>4.
+  <6 5!>8 <_!>4. <6 5->2
+  <5>4 <7 5 [_!]> <[5!] _+>2
+  <_->8 <4! 2> <6!> <[5!] _+> <6>2 %5
+  r <4+ 2>
+  <4+ 2+>1
+  <5+ _+>4 <6 4!> <5+ \t> <6\\ _!>
+  <5! 4> <[\t _!]> <\t _+>2
+  <7>4 <6> <[5!] _+>2 %10
+  r4 <5! _!>8 <6- 4 [2]> <6 5>2
+  r <8 6->8 <7 5> <6 4> <5 _+>
+  r1
+  <6 5>
+  <8 6>8 <[7 5]> <6 4> <5 _!> r2 %15
+  <5!>4 <6\\>2 <6>4
+  <[_+]>1
+  r
+  r2 \bo <[5!] 4>4 \bc <[\t] _+>
+  r1 %20 finis
+}

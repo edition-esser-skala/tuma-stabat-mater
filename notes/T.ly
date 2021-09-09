@@ -160,3 +160,53 @@ OQuamTenoreLyrics = \lyricmode {
   nas in -- cly --
   ti. %29 finis
 }
+
+QuisEstTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \phrygian \time 4/4 \autoBeamOff \tempoQuisEst
+    r4 d8\fE d d cis cis e
+    a, a f' f e16([ d) e8] r4
+    d16([ c) d8] r4 c16([ b) c8] r4
+    d h a cis8 cis
+    d d e? e a, a r4 %5
+    r a\p a2~
+    a1~\crescE
+    a4\f g8[ a] h2
+    e,2.( a4)
+    f e8[( d)] e2\fermata %10
+    r4 e'8 es d4 d
+    d8([ es)] d4 c8([ b]) b([ a)]
+    b([ a)] b4 r d8 d
+    c4 c c8([ d)] c4
+    b8([ a)] a([ g)] a([ g)] a a %15
+    g2 a4 d
+    e( a, h cis)
+    d a a( d)
+    e a, a4. a8
+    a2 r\fermata \bar "|." %20 finis
+  }
+}
+
+QuisEstTenoreLyrics = \lyricmode {
+  Quis est ho -- mo, quis est
+  ho -- mo, qui non fle --
+  _ _
+  _ _ ret, ma -- trem
+  Chri -- sti si vi -- de -- ret %5
+  in tan --
+
+  _ to
+  sup --
+  pli -- ci -- o? %10
+  Quis non pos -- set
+  con -- tri -- sta -- _
+  _ ri, Chri -- sti
+  ma -- trem con -- tem --
+  pla -- _ _ ri do -- %15
+  len -- tem, do --
+  len --
+  tem, do -- len --
+  tem cum fi -- li --
+  o? %20 finis
+}

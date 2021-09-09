@@ -136,3 +136,53 @@ OQuamBassoLyrics = \lyricmode {
   nas in -- cly --
   ti. %29 finis
 }
+
+QuisEstBasso = {
+  \relative c {
+    \clef bass
+    \key d \phrygian \time 4/4 \autoBeamOff \tempoQuisEst
+    r4 d8\fE f a a, r4
+    r d8 f a4 r
+    fis8([ g)] r4 e8([ f?)] r4
+    b8[ a] gis4 a a8 a
+    g f e a f16([ e)] d8 r4 %5
+    r d\p c2~
+    c1\cresc
+    h\f
+    a
+    b!4. b8 a2\fermata %10
+    r4 a'8 g fis4 fis
+    g4. g8 c,4( d)
+    g,2 r4 g'8 f!
+    e4 e f4. f8
+    b,4( c) f, f' %15
+    e2 d4 b!
+    a1~
+    a
+    a4 a a4. a8
+    d2 r\fermata \bar "|." %20 finis
+  }
+}
+
+QuisEstBassoLyrics = \lyricmode {
+  Quis est ho -- mo,
+  qui non fle --
+  _ _
+  _ _ ret, ma -- trem
+  Chri -- sti si vi -- de -- ret %5
+  in tan --
+
+  to
+  sup --
+  pli -- ci -- o? %10
+  Quis non pos -- set
+  con -- tri -- sta --
+  ri, Chri -- sti
+  ma -- trem con -- tem --
+  pla -- ri do -- %15
+  len -- tem, do --
+  len --
+
+  tem cum fi -- li --
+  o? %20 finis
+}
