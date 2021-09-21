@@ -206,7 +206,7 @@ ProPeccatisOrgano = {
     \key g \minor \time 4/4 \tempoProPeccatis
     g'4-!\f r8 d-! es-! e-! r e-!
     f-! fis-! r fis g f?16 es d c b a
-    b8 a16 g es'8 c g' g g, f'
+    b^\critnote a g8 es' c g' g g, f'
     e a a, g' fis g c,4~
     c b8 h c4 g' %5
     c,4. c8 d2
