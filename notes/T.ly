@@ -367,3 +367,59 @@ EiaMaterTenoreLyrics = \lyricmode {
   com -- pla -- ce --
   am. %43 finis
 }
+
+SanctaMaterTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \dorian \time 4/4 \autoBeamOff \tempoSanctaMater
+    r2 g4\fE c8([ b)]
+    as([ g)] as4 c4. c8
+    d4 es d g,
+    g8 g r4 r b!8 b
+    as4 as r c8 c %5
+    b4 b r r8 c(
+    f) f r b,( es) es r c(
+    d) d es c h h r4
+    f' des c8 c r4
+    c d es8[ as,16 f] g8. g16 \noBreak %10
+    g4 r r2\fermata \bar "||"
+    a!4. a8 f4( e8[ d)] \noBreak
+    e2 r
+    a4. a8 f4 d
+    b' g g e %15
+    c' a a a
+    a d b( a8[ g)]
+    a4 r d8([ g,)] fis([ c')]
+    b4 a g f
+    c' d es es %20
+    f8 r f r es r es r
+    c r c r c4. h8
+    c4 r r2\fermata \bar "|." %23 finis
+  }
+}
+
+SanctaMaterTenoreLyrics = \lyricmode {
+  San -- cta
+  ma -- ter, san -- cta
+  ma -- ter, i -- stud
+  a -- gas, cru -- ci --
+  fi -- xi, cru -- ci -- %5
+  fi -- xi fi --
+  ge, fi -- ge, fi --
+  ge, fi -- ge pla -- gas
+  cor -- di me -- o
+  va -- _ _ _ li -- %10
+  de.
+  Tu -- i na --
+  ti
+  vul -- ne -- ra -- ti,
+  tam di -- gna -- ti %15
+  pro me pa -- ti,
+  pro me pa --
+  ti, poe -- nas
+  me -- cum, poe -- nas,
+  poe -- nas me -- cum %20
+  di -- vi -- de, di --
+  vi -- de, di -- vi --
+  de. %23 finis
+}

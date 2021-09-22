@@ -92,14 +92,6 @@ StabatSopranoLyrics = \lyricmode {
   _ _ di -- %35
   us. %36 finis
 
-  % San -- cta ma -- ter, i -- stud a -- gas,
-  % cru -- ci -- fi -- xi fi -- ge pla -- gas
-  % cor -- di me -- o va -- li -- de.
-  %
-  % Tu -- i na -- ti vul -- ne -- ra -- ti,
-  % tam di -- gna -- ti pro me pa -- ti,
-  % poe -- nas me -- cum di -- vi -- de.
-  %
   % Fac me te -- cum pi -- e fle -- re,
   % cru -- ci -- fi -- xo con -- do -- le -- re,
   % do -- nec e -- go vi -- xe -- ro
@@ -397,4 +389,60 @@ EiaMaterSopranoLyrics = \lyricmode {
   _ _
   com -- pla -- ce --
   am. %43 finis
+}
+
+SanctaMaterSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoSanctaMater
+    g'8([\fE c)] es([ d)] c([ h)] c4
+    c4. b8 as([ g)] as r
+    h4 c d8 g, es' d16([ c)]
+    h([ a)] g8 r4 es des'
+    des8([ h)] c4 f, es' %5
+    es8([ cis)] d4 r8 es([ c?)] f
+    r d([ b)] es r c([ f)] d
+    h8. h16 c([ d)] es([ f)] g8 g, r4
+    des'4. e8 f16([ e)] f8 r4
+    g8[ es16 c] f8[ d16 h] c8[ as16 f] g8. h16 \noBreak %10
+    c4 r r2\fermata \bar "||"
+    cis4. cis8 d2 \noBreak
+    cis r
+    c4 cis d8([ cis)] d4
+    d d e8([ dis)] e4 %15
+    e e f8([ e) d( cis)]
+    d2~ d4 c
+    d r r2
+    d8([ g,)] fis([ c')] b([ c)] d4
+    g, g g8([ c)] es4 %20
+    es8 d16([ c)] d8 r d c16([ h)] c8 r
+    c b as r g4. g8
+    g4 r r2\fermata \bar "|." %23 finis
+  }
+}
+
+SanctaMaterSopranoLyrics = \lyricmode {
+  San -- cta ma -- ter,
+  san -- cta ma -- ter,
+  i -- stud a -- gas, i -- stud
+  a -- gas, cru -- ci --
+  fi -- xi, cru -- ci -- %5
+  fi -- xi fi -- ge,
+  fi -- ge, fi -- ge
+  pla -- gas, fi -- ge pla -- gas
+  cor -- di me -- o
+  va -- _ _ _ li -- %10
+  de.
+  Tu -- i na --
+  ti
+  vul -- ne -- ra -- ti,
+  tam di -- gna -- ti %15
+  pro me pa --
+  _ _
+  ti,
+  poe -- nas me -- cum,
+  poe -- nas me -- cum %20
+  di -- vi -- de, di -- vi -- de,
+  di -- vi -- de, di -- vi --
+  de. %23 finis
 }

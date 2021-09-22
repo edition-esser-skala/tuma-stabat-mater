@@ -362,3 +362,59 @@ EiaMaterAltoLyrics = \lyricmode {
   pla -- ce --
   am. %43 finis
 }
+
+SanctaMaterAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoSanctaMater
+    c8([\fE es)] g([ f)] es([ d)] es4
+    f as8([ g)] f([ e)] f4
+    f g g4. f16([ es)]
+    d8 d r4 r es8 es
+    es4 es r f8 f %5
+    f4 f r r8 f(
+    as) b r es,( g) c, r d(
+    f) g g as d, d r4
+    as' b as8 as r4
+    g8[ as f g]~ g[ as16 f] d8. d16 \noBreak %10
+    c4 r r2\fermata \bar "||"
+    e4. a8 a4( g) \noBreak
+    a2 e4 e
+    f8([ e)] f4 f fis
+    g8([ fis)] g4 g gis %15
+    a8([ gis)] a4 a8([ g?)] f([ e)]
+    f4 fis g2
+    fis4 r r2
+    r g8([ c,)] h([ f')]
+    es4 d c c' %20
+    c8 r b r b r as? r
+    g r f r d4. d8
+    c4 r r2\fermata \bar "|." %23 finis
+  }
+}
+
+SanctaMaterAltoLyrics = \lyricmode {
+  San -- cta ma -- ter,
+  san -- cta ma -- ter,
+  i -- stud, i -- stud
+  a -- gas, cru -- ci --
+  fi -- xi, cru -- ci -- %5
+  fi -- xi fi --
+  ge, fi -- ge, fi --
+  ge, fi -- ge pla -- gas
+  cor -- di me -- o
+  va -- _ li -- %10
+  de.
+  Tu -- i na --
+  ti vul -- ne --
+  ra -- ti, tam di --
+  gna -- ti pro me %15
+  pa -- ti, pro me,
+  pro me pa --
+  ti,
+  poe -- nas,
+  poe -- nas me -- cum %20
+  di -- vi -- de, di --
+  vi -- de, di -- vi --
+  de. %23 finis
+}

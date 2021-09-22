@@ -355,3 +355,59 @@ EiaMaterBassFigures = \figuremode {
   r4 <6 4> <5 3>
   r2. %43 finis
 }
+
+SanctaMaterOrgano = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoSanctaMater
+    c4\fE r c as'8( g)
+    f e f4 f4. es?8^\critnote
+    d4 c h c
+    g'8 g, r4 r g
+    as2 r4 a %5
+    b2 r4 r8 as'
+    f b r g es as r f
+    d g c, as g4 r
+    f' g as r
+    es8 as d,! g es as16-! f-! g8-\parenthesize-! g, \noBreak %10
+    c4 r r2\fermata \bar "||"
+    a!2 b \noBreak
+    a r
+    a b~
+    b4 h c2~ %15
+    c4 cis \once \tieDashed d2~
+    d es
+    d4 r b a
+    g d' es d
+    c g c c %20
+    as'8 r b r g r as r
+    e r f r g4 g,
+    c r r2\fermata \bar "|." %23 finis
+  }
+}
+
+SanctaMaterBassFigures = \figuremode {
+  r1
+  <_->2.. <[\t \t]>8
+  <6!>2 <6>
+  <_!>2. <6 5- [_-]>4
+  <4-> <3>2 <6 5>4 %5
+  <4> <_!>2 r8 <6>
+  <_->4. <6>2 <6 [5 _-]>8
+  <6!>4. <6>8 <_!>2
+  <6- _->4 <\t>8 <6!> <6>2
+  <6>4 <7 [5-]>8 <_!> <6>4. <5 _!>8 %10
+  r1
+  <5! _+>2 <7>4 <6>
+  <[5!] _+>1
+  <6 _!>4 <\t _+> <5!> <5+>
+  <6> <\t> <5 _!> <5+ \t> %15
+  <6 \t> <\t \t>2.
+  <_!>4 <_+> <7> <6!>
+  <_+>2 <6>4 <6\\>
+  r <_+> <5>8 <6> <6! [_!]>4
+  r <_!>2. %20
+  <6 5>2 q
+  q4 <_-> <5 4> <\t \t>8 <\t _!>
+  r1 %23 finis
+}

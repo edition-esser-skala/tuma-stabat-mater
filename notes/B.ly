@@ -346,3 +346,59 @@ EiaMaterBassoLyrics = \lyricmode {
   com -- pla -- ce --
   am. %43 finis
 }
+
+SanctaMaterBasso = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \autoBeamOff \tempoSanctaMater
+    r2 c4\fE as'8([ g)]
+    f([ e)] f4 f4. es?8
+    d4 c h c
+    g'8 g, r4 r g8 g
+    as4 as r a8 a %5
+    b4 b r r8 as'(
+    f) b r g( es) as r f(
+    d) g c, as g g' r4
+    f g as16([ g)] as8 r4
+    es8[ as d,! g] es[ as16 f] g8. g16 \noBreak %10
+    c,4 r r2\fermata \bar "||"
+    a!4. a8 b2 \noBreak
+    a r
+    a4. a8 b4 b
+    b h c c %15
+    c cis d d
+    d d es2
+    d4 r r2
+    R1
+    g8([ c,)] h([ f')] es4 c %20
+    as'8 r b r g r as r
+    e r f r g4. g8
+    c,4 r r2\fermata \bar "|." %23 fisnis
+  }
+}
+
+SanctaMaterBassoLyrics = \lyricmode {
+  San -- cta
+  ma -- ter, san -- cta
+  ma -- ter, i -- stud
+  a -- gas, cru -- ci --
+  fi -- xi, cru -- ci -- %5
+  fi -- xi fi --
+  ge, fi -- ge, fi --
+  ge, fi -- ge pla -- gas
+  cor -- di me -- o
+  va -- _ _ li -- %10
+  de.
+  Tu -- i na --
+  ti
+  vul -- ne -- ra -- ti,
+  tam di -- gna -- ti %15
+  pro me pa -- ti,
+  pro me pa --
+  ti,
+  
+  poe -- nas me -- cum %20
+  di -- vi -- de, di --
+  vi -- de, di -- vi --
+  de. %23 finis
+}
