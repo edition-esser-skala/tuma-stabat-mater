@@ -299,50 +299,96 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     number = "6"
+  %     title = "S A N C T A   M A T E R"
+  %   }
+  %   \tocSection "6" "Sancta mater"
+  %   \score {
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \SanctaMaterSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \SanctaMaterSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \SanctaMaterAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \SanctaMaterAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \SanctaMaterTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \SanctaMaterTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \SanctaMaterBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \SanctaMaterBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \SanctaMaterOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \SanctaMaterBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
     \header {
-      number = "6"
-      title = "S A N C T A   M A T E R"
+      number = "7"
+      title = "F A C   M E   T E C U M"
     }
-    \tocSection "6" "Sancta mater"
+    \tocSection "7" "Fac me tecum"
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \SanctaMaterSoprano }
+            \new Voice = "Soprano" { \dynamicUp \FacMeSoprano }
           }
-          \new Lyrics \lyricsto Soprano \SanctaMaterSopranoLyrics
+          \new Lyrics \lyricsto Soprano \FacMeSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \SanctaMaterAlto }
+            \new Voice = "Alto" { \dynamicUp \FacMeAlto }
           }
-          \new Lyrics \lyricsto Alto \SanctaMaterAltoLyrics
+          \new Lyrics \lyricsto Alto \FacMeAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \SanctaMaterTenore }
+            \new Voice = "Tenore" { \dynamicUp \FacMeTenore }
           }
-          \new Lyrics \lyricsto Tenore \SanctaMaterTenoreLyrics
+          \new Lyrics \lyricsto Tenore \FacMeTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \SanctaMaterBasso }
+            \new Voice = "Basso" { \dynamicUp \FacMeBasso }
           }
-          \new Lyrics \lyricsto Basso \SanctaMaterBassoLyrics
+          \new Lyrics \lyricsto Basso \FacMeBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \SanctaMaterOrgano
+            \FacMeOrgano
           }
         >>
-        \new FiguredBass { \SanctaMaterBassFigures }
+        \new FiguredBass { \FacMeBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 2 = 120 }
     }
   }
 }

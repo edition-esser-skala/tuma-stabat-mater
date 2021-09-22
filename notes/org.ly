@@ -411,3 +411,145 @@ SanctaMaterBassFigures = \figuremode {
   q4 <_-> <5 4> <\t \t>8 <\t _!>
   r1 %23 finis
 }
+
+FacMeOrgano = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 3/2 \tempoFacMe
+    f,2\fE r r
+    R1.
+    f2 as( b)
+    c1 b2
+    as1. %5
+    a~
+    a
+    b2. ges'4 f es
+    des( c) b2 r
+    h1.~ %10
+    h
+    c2. as'4 g f
+    es( d) c2 r
+    r c c
+    as'4( g) as2 r %15
+    r4 as g( f) e( f)
+    r des c( b) a( b)
+    r g' f( es) d( es)
+    r c \slurDashed b( as) g( as) \slurSolid
+    b2 des b %20
+    c c' b
+    as1 g2
+    f1 es2
+    d!1 c2
+    h c1 %25
+    g2 g'4( f) es( g)
+    as g as g f a
+    b as b as g h
+    c b as g f es
+    d c h a g f' %30
+    es c g'2 g,
+    c r r
+    r c1-\tasto
+    c1.~
+    c %35
+    c2 c b
+    a f r
+    b f'1
+    b,2 f'1
+    b2 f1 %40
+    b, r2
+    r4 des c( b) a( b)
+    r ges' f( es) d( es)
+    f2 a b
+    es, f f, %45
+    b1 b'2
+    e,1.
+    f1 h,2
+    c1 c2
+    as'1. %50
+    a
+    b1 b,2
+    b'1.
+    h
+    c1 c,2 %55
+    f es! des
+    c r r
+    r4 as' g( f) e( f)
+    r des' c( b) a( b)
+    r des b( c) des( b) %60
+    c b as g f es
+    des c b as g f
+    des'2 b c
+    des r r
+    b c c %65
+    f,1 r2\fermata \bar "|." %66 finis
+  }
+}
+
+FacMeBassFigures = \figuremode {
+  r1.
+  r
+  \bo <[8 3]>1 \bassFigureExtendersOn \bc q2 \bassFigureExtendersOff
+  <_!>1 <[\t]>2
+  <6>1. %5
+  <7- 5>
+  r
+  <_->2. \bo <[2!]>4 <4> <6>
+  <6> <6!> \bc <[_-]>1
+  <7- 5 [_!]>1. %10
+  r
+  r2. \bo <[2!]>4 <4> <6>
+  <6> \bc <[6!]> r1
+  r1.
+  \bo <[6]>4 <6!> \bc <[6]>1 %15
+  r4 <[6]> r1
+  r4 <[6]> r1
+  r4 <6> r1
+  r4 <6> r1
+  <_->2 <6> <7 [_-]> %20
+  <6 4> <[5] _!>1
+  <6> <6>2
+  <6->1 <6>2
+  <6!>1.
+  <6> %25
+  <_!>1 <6>2
+  <5> <6>1
+  <5>2 <6>1
+  r1 r4 <[6]>
+  <6!> \bo <[6]> <6>2 \bc <[_!]> %30
+  <6> <4> <_!>
+  r1.
+  r
+  r
+  r %35
+  <_!>1 <_->2
+  <6> <[_!]>1
+  <_->2 <_!>1
+  <_->2 <_!>1
+  <_->2 <_!>1 %40
+  <_->1.
+  r4 <6> r1
+  r4 <6> r2. <_->4
+  <7 _!>2 <[6 5]> <_->
+  <6 5 _-> <4> <_!> %45
+  <_->1.
+  <7- [_!]>2 <6> <5>
+  r1 <7 5 [_!]>2
+  <_!>1.
+  <6> %50
+  <7- 5>
+  <6- 4>2 <5 _->1
+  <_->1.
+  <7- 5 [_!]>
+  <6 4>2 <5 _!>1 %55
+  \bo <[5]>4 \bc <[6-]> <6>2 <6!>
+  <_!>1.
+  r4 <6> r1
+  r4 <6> r1
+  r4 <[6]> r1 %60
+  \bo <[_!]>2 \bc <[6]>1
+  <6>2 \bo <[6 4! 2]>4 < \t \t \t> <7 4 2> \bc <[\t \t \t]>
+  r2 <6 5 [_-]> <_!>
+  <5>1.
+  <6 [_-]>2 <4> <_!> %65
+  r1. %66 finis
+}

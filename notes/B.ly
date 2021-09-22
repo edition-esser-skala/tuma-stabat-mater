@@ -396,9 +396,148 @@ SanctaMaterBassoLyrics = \lyricmode {
   pro me pa -- ti,
   pro me pa --
   ti,
-  
+
   poe -- nas me -- cum %20
   di -- vi -- de, di --
   vi -- de, di -- vi --
   de. %23 finis
+}
+
+FacMeBasso = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 3/2 \autoBeamOff \tempoFacMe
+    R1.*2
+    f,2\fE as( b)
+    c1( b2)
+    as1 r2 %5
+    a1 a2
+    a1.
+    b2. ges'4 f( es)
+    des( c) b2 r
+    h1 h2 %10
+    h1.
+    c2. as'4 g( f)
+    es( d) c2 r
+    r c c
+    as'4( g) as2 r %15
+    r4 as g( f) e( f)
+    r des c( b) a( b)
+    r g' f( es) d( es)
+    r c b( as) g( as)
+    b4. c8 des2( b) %20
+    c c' b
+    as1 g2
+    f1 es2
+    d!1( c2)
+    h c2. c4 %25
+    g2 g'4( f) es( g)
+    as( g) as( g) f( a)
+    b( as) b( as) g( h)
+    c b as g f es
+    d c h a g f' %30
+    es( c) g'2. g4
+    c,2 r r
+    r c c
+    c1.~
+    c %35
+    c2 c b
+    a f r
+    r a' a
+    b4( a?) a2 r
+    r f a %40
+    b4( a) b2 r
+    r4 des, c( b) a( b)
+    r ges' f( es) d( es)
+    f2 a b
+    es, f2. f4 %45
+    b,2 b' b
+    e, e e
+    f f( h,)
+    c1 c2
+    as'1. %50
+    a
+    b1 b,2
+    b'1.
+    h
+    c %55
+    f,2 es! des
+    c r r
+    r4 as' g( f) e( f)
+    r des' c( b) a( b)
+    r des b( c) des( b) %60
+    c b as g f es
+    des c b as g f
+    des'2 b c
+    des r r
+    b c2. c4 %65
+    f,1 r2\fermata \bar "|." %66 finis
+  }
+}
+
+FacMeBassoLyrics = \lyricmode {
+  Fac me __ %3
+  te --
+  cum %5
+  pi -- e
+  fle --
+  re, pi -- e __
+  fle -- re,
+  pi -- e %10
+  fle --
+  re, pi -- e __
+  fle -- re,
+  cru -- ci --
+  fi -- xo %15
+  con -- _ do --
+  le -- _ re,
+  con -- _ do --
+  le -- _ re,
+  con -- do -- le -- %20
+  re, do -- nec
+  e -- go,
+  do -- nec
+  e --
+  go vi -- xe -- %25
+  ro, e -- _
+  _ _ _
+  _ _ _
+  _ _ _ _ _ _
+  _ _ _ _ _ _ %30
+  go __ vi -- xe --
+  ro.
+  Te -- cum
+  sta --
+  %35
+  re, te -- cum
+  sta -- re,
+  et me
+  ti -- bi
+  so -- ci -- %40
+  a -- re
+  in plan -- _
+  _ _ _
+  _ _ ctu
+  de -- si -- de -- %45
+  ro, et me
+  ti -- bi so --
+  ci -- a --
+  re in
+  plan -- %50
+  _
+  ctu, in
+  plan --
+  _
+  ctu %55
+  de -- si -- de --
+  ro,
+  in plan -- _
+  _ _ _
+  _ _ _ %60
+  _ _ _ _ _ _
+  _ _ _ _ _ ctu
+  de -- si -- de --
+  ro,
+  de -- si -- de -- %65
+  ro. %66 finis
 }

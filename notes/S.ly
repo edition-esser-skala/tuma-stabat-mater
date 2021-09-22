@@ -92,14 +92,6 @@ StabatSopranoLyrics = \lyricmode {
   _ _ di -- %35
   us. %36 finis
 
-  % Fac me te -- cum pi -- e fle -- re,
-  % cru -- ci -- fi -- xo con -- do -- le -- re,
-  % do -- nec e -- go vi -- xe -- ro
-  %
-  % Iux -- ta cru -- cem te -- cum sta -- re,
-  % te li -- ben -- ter so -- ci -- a -- re
-  % in plan -- ctu de -- si -- de -- ro.
-  %
   % Vir -- go vir -- gi -- num prae -- cla -- ra,
   % mi -- hi iam non sis a -- ma -- ra,
   % fac me te -- cum plan -- ge -- re.
@@ -445,4 +437,146 @@ SanctaMaterSopranoLyrics = \lyricmode {
   di -- vi -- de, di -- vi -- de,
   di -- vi -- de, di -- vi --
   de. %23 finis
+}
+
+FacMeSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 3/2 \autoBeamOff \tempoFacMe
+    f2\fE as( b)
+    c1 b2
+    as1.
+    g
+    r2 c4( f) f2 %5
+    r4 es des( c) des( es)
+    r es des( c) des( c)
+    b( a) b2 r
+    r des4( f) f2
+    r4 f es( d) es( f) %10
+    r f es( d) es( d)
+    c( h) c2 r
+    r g g
+    es'4( d) es2 r
+    r c c %15
+    f1.~
+    f1~ f4 des
+    \once \tieDashed es1.~
+    es1~ es4 c
+    des2 b as %20
+    as g r
+    r f' es!
+    des1 c2
+    h1 c2
+    d! es2. f4 %25
+    d2 d es
+    c f r
+    r d2. g4
+    es2 c c
+    h4( c) d2 r %30
+    c1 h2
+    c r r
+    r g c
+    b( as) g
+    as( g) f %35
+    g4( f) g2 r
+    r c c
+    des4( c) c2 r
+    r f es
+    des c r %40
+    R1.
+    r2 r b
+    es1.~
+    es2. f4 des2
+    c c2. b4 %45
+    b2 des des
+    des c b
+    as4( g) as1
+    g r2
+    r r f' %50
+    r4 es des( c) des( es)
+    r es des( c) des2
+    r4 f es( des) c( des)
+    r f es( d) es(^\critnote f)
+    r f e( d) e2 %55
+    f4( des) c2 h
+    c4 b as2 g
+    f r f'
+    b,1.~
+    b1~ b4 c8[ des] %60
+    c1 c2
+    des( e) f
+    f, f e
+    f r r
+    des'4( b) g2. g4 %65
+    f1 r2\fermata \bar "|." %66 finis
+  }
+}
+
+FacMeSopranoLyrics = \lyricmode {
+  Fac me, __
+  fac me
+  te --
+  cum
+  pi -- e %5
+  fle -- _ _
+  _ _ _
+  _ re,
+  pi -- e
+  fle -- _ _ %10
+  _ _ _
+  _ re,
+  cru -- ci --
+  fi -- xo
+  con -- do -- %15
+  le --
+  _
+  _
+  _
+  re, con -- do -- %20
+  le -- re,
+  do -- nec
+  e -- go
+  vi -- xe --
+  ro, vi -- xe -- %25
+  ro, do -- nec
+  e -- go
+  vi -- xe --
+  ro, do -- nec
+  e -- go %30
+  vi -- xe --
+  ro.
+  Iux -- ta
+  cru -- cem
+  te -- cum %35
+  sta -- re,
+  et me
+  ti -- bi
+  so -- ci --
+  a -- re %40
+
+  in
+  plan --
+  _ ctu
+  de -- si -- de -- %45
+  ro, et me
+  ti -- bi so -- ci --
+  a --
+  re
+  in %50
+  plan -- _ _
+  _ _ ctu
+  in plan -- _
+  _ _ _
+  _ _ ctu %55
+  de -- si -- de --
+  ro, de -- si -- de --
+  ro, in
+  plan --
+  _ %60
+  ctu, in
+  plan -- ctu
+  de -- si -- de --
+  ro,
+  de -- si -- de -- %65
+  ro. %66 finis
 }

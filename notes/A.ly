@@ -418,3 +418,144 @@ SanctaMaterAltoLyrics = \lyricmode {
   vi -- de, di -- vi --
   de. %23 finis
 }
+
+FacMeAlto = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 3/2 \autoBeamOff \tempoFacMe
+    R1.
+    c2\fE d( e)
+    f1.
+    e
+    r2 as as %5
+    r4 ges f( es) f( ges)
+    r ges f( es) f( es)
+    des( c) des2 r
+    r b' b
+    r4 as! g( f) g( as) %10
+    r as g( f) g( f)
+    es( d) es2 r
+    R1.
+    r2 g g
+    f4( e) f2 r %15
+    r as c
+    b1 b2
+    r g b
+    as1 as2
+    f1 f2 %20
+    f e r
+    r as b
+    as1 g2
+    f1( g2)
+    g g2. g4 %25
+    g2 g g
+    es( as1)
+    f2 g2. g4
+    g1 as4( g)
+    f( as) g1~ %30
+    g4 es d2. d4
+    c2 r r
+    r e e
+    g( f) e
+    f( e) d %35
+    e4( d) e2 r
+    r a a
+    b4( a) a2 r
+    r a? c
+    b a r %40
+    r r f
+    b1.~
+    b
+    a2 f1
+    ges2 f2. f4 %45
+    f2 f f
+    g!1 g2
+    f4 e f1
+    e r2
+    r r as %50
+    r4 ges f( es) f( ges)
+    r ges f( es) f2
+    f b r
+    r4 as g( f) g( as)
+    r as g( f) g2 %55
+    as g f
+    e4 e f2 e
+    f r as
+    \once \tieDashed f1.~
+    f1 b2 %60
+    g as1
+    f2( g) as~
+    as4 g g2. g4
+    f2 r r
+    f f e %65
+    f1 r2\fermata \bar "|." %66 finis
+  }
+}
+
+FacMeAltoLyrics = \lyricmode {
+  Fac me __ %2
+  te --
+  cum
+  pi -- e %5
+  fle -- _ _
+  _ _ _
+  _ re,
+  pi -- e
+  fle -- _ _ %10
+  _ _ _
+  _ re,
+
+  cru -- ci --
+  fi -- xo %15
+  con -- do --
+  le -- re,
+  con -- do --
+  le -- re,
+  con -- do -- %20
+  le -- re,
+  do -- nec
+  e -- go,
+  e --
+  go vi -- xe -- %25
+  ro, do -- nec
+  e --
+  go vi -- xe --
+  ro, do --
+  nec e -- %30
+  go vi -- xe --
+  ro.
+  Iux -- ta
+  cru -- cem
+  te -- cum %35
+  sta -- re,
+  et me
+  ti -- bi
+  so -- ci --
+  a -- re %40
+  in
+  plan --
+
+  _ ctu
+  de -- si -- de -- %45
+  ro, et me
+  ti -- bi
+  so -- ci -- a --
+  re
+  in %50
+  plan -- _ _
+  _ _ _
+  ctu, in
+  plan -- _ _
+  _ _ ctu %55
+  de -- si -- de --
+  ro, de -- si -- de --
+  ro, in
+  plan --
+  _ %60
+  ctu, in
+  plan -- ctu __
+  de -- si -- de --
+  ro,
+  de -- si -- de -- %65
+  ro. %66 finis
+}
