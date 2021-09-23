@@ -50,7 +50,7 @@ StabatTenore = {
     a,8 d es4 d c
     b a d2~
     d~ d4. d8 %35
-    d4 r r2\fermata \bar "|." %36 finis
+    d4 r r2\fermata \bar "||" %36 finis
   }
 }
 
@@ -125,7 +125,7 @@ OQuamTenore = {
     d cis2
     d2.
     h4 a4. a8
-    a2 r4\fermata \bar "|." %29 finis
+    a2 r4\fermata \bar "||" %29 finis
   }
 }
 
@@ -184,7 +184,7 @@ QuisEstTenore = {
     e( a, h cis)
     d a a( d)
     e a, a4. a8
-    a2 r\fermata \bar "|." %20 finis
+    a2 r\fermata \bar "||" %20 finis
   }
 }
 
@@ -240,7 +240,7 @@ ProPeccatisTenore = {
     es(\crescE d8[ c)] d2
     \tempoDumEmisit r4 d8\fE d c16([ h)] c8 r4 %25
     r e8 e f c r4
-    \tempoSpiritum c4.\p h8 c r r4\fermata \bar "|." %27 finis
+    \tempoSpiritum c4.\p h8 c r r4\fermata \bar "||" %27 finis
   }
 }
 
@@ -318,7 +318,7 @@ EiaMaterTenore = {
     b4 r r %40
     g g r
     c b4. b8
-    b4 r r\fermata \bar "|." %43 finis
+    b4 r r\fermata \bar "||" %43 finis
   }
 }
 
@@ -394,7 +394,7 @@ SanctaMaterTenore = {
     c' d es es %20
     f8 r f r es r es r
     c r c r c4. h8
-    c4 r r2\fermata \bar "|." %23 finis
+    c4 r r2\fermata \bar "||" %23 finis
   }
 }
 
@@ -491,7 +491,7 @@ FacMeTenore = {
     des des c
     as r r
     des c2. c4 %65
-    c1 r2\fermata \bar "|." %66 finis
+    c1 r2\fermata \bar "||" %66 finis
   }
 }
 
@@ -559,4 +559,53 @@ FacMeTenoreLyrics = \lyricmode {
   ro,
   de -- si -- de -- %65
   ro. %66 finis
+}
+
+VirgoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \dorian \time 4/4 \autoBeamOff \tempoVirgo
+    R1*2
+    r2 c4.\fE d8
+    h8. h16 c4~ c8 c c([ h)]
+    c4 r c d %5
+    es8 b b es c4. f8
+    d4 es es( d8.) d16
+    es4 r r2
+    R1*7 %15
+    d4. b8 b([ a)] a4
+    r8 d4 b8 b([ a)] a4
+    r8 d d d es4 es
+    r8 c4 f8 d4 d
+    b8 c b4 b b8 es %20
+    es4 d8 d es b r4
+    r f'8 f f16([ es)] es8 c d
+    es([ d] c4) d r8 d
+    d c r c c f r d
+    d4 c~ c8 c g8. g16 %25
+    g4 r8 es' es d16 d d8. d16
+    c4 r r2\fermata \bar "||" %27 finis
+  }
+}
+
+VirgoTenoreLyrics = \lyricmode {
+  Vir -- go %3
+  vir -- gi -- num __ prae -- cla --
+  ra, fac me %5
+  te -- cum, fac me te -- cum,
+  te -- cum plan -- ge --
+  re.
+
+  Fac me pla -- gis, %16
+  fac me cru -- ce
+  in -- e -- bri -- a -- ri
+  et cru -- o -- re
+  fi -- li -- i. Flam -- mis ne %20
+  u -- rar suc -- cen -- sus
+  per te, vir -- go, sim de --
+  fen -- sus in
+  di -- e, in di -- e, in
+  di -- e __ iu -- di -- ci -- %25
+  i, in di -- e iu -- di -- ci --
+  i. %27 finis
 }

@@ -50,7 +50,7 @@ StabatAlto = {
     fis g[ b] a4 g f?8~
     f es4 d8 g2~
     g4 fis8[ e] fis4. fis8 %35
-    g4 r r2\fermata \bar "|." %36 finis
+    g4 r r2\fermata \bar "||" %36 finis
   }
 }
 
@@ -125,7 +125,7 @@ OQuamAlto = {
     b a2
     r4 f f
     e2 e4
-    d2 r4\fermata \bar "|." %29 finis
+    d2 r4\fermata \bar "||" %29 finis
   }
 }
 
@@ -183,7 +183,7 @@ QuisEstAlto = {
     a r8 a gis4( g)
     f e fis( gis)
     a8([ g)] f4 e4. e8
-    d2 r\fermata \bar "|." %20 finis
+    d2 r\fermata \bar "||" %20 finis
   }
 }
 
@@ -237,7 +237,7 @@ ProPeccatisAlto = {
     g(\crescE f) g2
     \tempoDumEmisit r4 g8\fE g g g r4 %25
     r g8 g as as r4
-    \tempoSpiritum es8\p r d r c r r4\fermata \bar "|." %27 finis
+    \tempoSpiritum es8\p r d r c r r4\fermata \bar "||" %27 finis
   }
 }
 
@@ -313,7 +313,7 @@ EiaMaterAlto = {
     es r r %40
     c2 r4
     es2 d4
-    es r r\fermata \bar "|." %43 finis
+    es r r\fermata \bar "||" %43 finis
   }
 }
 
@@ -389,7 +389,7 @@ SanctaMaterAlto = {
     es4 d c c' %20
     c8 r b r b r as? r
     g r f r d4. d8
-    c4 r r2\fermata \bar "|." %23 finis
+    c4 r r2\fermata \bar "||" %23 finis
   }
 }
 
@@ -488,7 +488,7 @@ FacMeAlto = {
     as4 g g2. g4
     f2 r r
     f f e %65
-    f1 r2\fermata \bar "|." %66 finis
+    f1 r2\fermata \bar "||" %66 finis
   }
 }
 
@@ -558,4 +558,53 @@ FacMeAltoLyrics = \lyricmode {
   ro,
   de -- si -- de -- %65
   ro. %66 finis
+}
+
+VirgoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoVirgo
+    R1*2
+    c8\fE es g4~ g8 f16([ e)] f4~
+    f8 es16([ d)] es8.[ f16] g8[ f16 es] \sbOn d[ es \tuplet 3/2 8 { f es d] } \sbOff
+    es8 c g' es as8. as16 b8 as %5
+    as16([ fis)] g8 b4~ b8 as16([ g)] as4~
+    as8 g16([ f)] g4~ g8 f f8. f16
+    es4 r r2
+    R1*7 %15
+    b'4. g8 g([ fis)] fis4
+    r8 g4 g8 g([ fis)] fis4
+    r2 r8 g4 g8
+    as4 as r f
+    g8 f f8. f16 g8 g g g %20
+    g([ f)] f f g g es es
+    es16([ d)] d8 d g g g g g
+    g4( f) g r8 g
+    g([ es16 f)] g4~ g8 f16([ e)] f4~
+    f8[ es16 d] es8 g g([ f16 es] d8.) d16 %25
+    c4 r8 as' g as16^\critnote a g8. g16
+    g4 r r2\fermata \bar "||" %27 finis
+  }
+}
+
+VirgoAltoLyrics = \lyricmode {
+  Vir -- go vir -- gi -- num __ %3
+  prae -- cla -- _ _
+  _ ra, mi -- hi iam non sis a -- %5
+  ma -- ra, fac __ me, fac __
+  me te -- cum plan -- ge --
+  re.
+
+  Fac me pla -- gis %16
+  vul -- ne -- ra -- ri,
+  et cru --
+  o -- re, cru --
+  o -- re fi -- li -- i. Flam -- mis ne %20
+  u -- rar suc -- cen -- sus per te,
+  vir -- go, per te, vir -- go sim de --
+  fen -- sus in
+  di -- e, __ in di --
+  e iu -- di -- ci -- %25
+  i, in di -- e iu -- di -- ci --
+  i. %27 finis
 }

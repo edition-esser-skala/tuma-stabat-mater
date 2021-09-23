@@ -65,10 +65,10 @@
   % \bookpart {
   %   \header {
   %     number = "1"
-  %     title = "S T A B A T   M A T E R"
+  %     title = "S T A B A T   M A T E R   D O L O R O S A"
   %   }
   %   \paper { indent = 3\cm }
-  %   \tocSection "1" "Stabat mater"
+  %   \tocSection "1" "Stabat mater dolorosa"
   %   \score {
   %     <<
   %       \new ChoirStaff <<
@@ -118,9 +118,9 @@
   % \bookpart {
   %   \header {
   %     number = "2"
-  %     title = "O   Q U A M   T R I S T I S"
+  %     title = "O   Q U A M   T R I S T I S   E T   A F F L I C T A"
   %   }
-  %   \tocSection "2" "O quam tristis"
+  %   \tocSection "2" "O quam tristis et afflicta"
   %   \score {
   %     <<
   %       \new ChoirStaff <<
@@ -164,9 +164,9 @@
   % \bookpart {
   %   \header {
   %     number = "3"
-  %     title = "Q U I S   E S T   H O M O"
+  %     title = "Q U I S   E S T   H O M O,   Q U I   N O N   F L E R E T"
   %   }
-  %   \tocSection "3" "Quis est homo"
+  %   \tocSection "3" "Quis est homo, qui non fleret"
   %   \score {
   %     <<
   %       \new ChoirStaff <<
@@ -210,9 +210,9 @@
   % \bookpart {
   %   \header {
   %     number = "4"
-  %     title = "P R O   P E C C A T I S"
+  %     title = "P R O   P E C C A T I S   S U Æ   G E N T I S"
   %   }
-  %   \tocSection "4" "Pro peccatis"
+  %   \tocSection "4" "Pro peccatis suae gentis"
   %   \score {
   %     <<
   %       \new ChoirStaff <<
@@ -256,9 +256,9 @@
   % \bookpart {
   %   \header {
   %     number = "5"
-  %     title = "E I A   M A T E R"
+  %     title = "E I A   M A T E R,   F O N S   A M O R I S"
   %   }
-  %   \tocSection "5" "Eia mater"
+  %   \tocSection "5" "Eia mater, fons amoris"
   %   \score {
   %     <<
   %       \new ChoirStaff <<
@@ -302,9 +302,9 @@
   % \bookpart {
   %   \header {
   %     number = "6"
-  %     title = "S A N C T A   M A T E R"
+  %     title = "S A N C T A   M A T E R,   I S T U D   A G A S"
   %   }
-  %   \tocSection "6" "Sancta mater"
+  %   \tocSection "6" "Sancta mater, istud agas"
   %   \score {
   %     <<
   %       \new ChoirStaff <<
@@ -345,50 +345,96 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     number = "7"
+  %     title = "F A C   M E   T E C U M   P I E   F L E R E"
+  %   }
+  %   \tocSection "7" "Fac me tecum pie flere"
+  %   \score {
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \FacMeSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \FacMeSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \FacMeAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \FacMeAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \FacMeTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \FacMeTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \FacMeBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \FacMeBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \FacMeOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \FacMeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 120 }
+  %   }
+  % }
   \bookpart {
     \header {
-      number = "7"
-      title = "F A C   M E   T E C U M"
+      number = "8"
+      title = "V I R G O   V I R G I N U M  P R Æ C L A R A"
     }
-    \tocSection "7" "Fac me tecum"
+    \tocSection "8" "Virgo virginum praeclara"
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \FacMeSoprano }
+            \new Voice = "Soprano" { \dynamicUp \VirgoSoprano }
           }
-          \new Lyrics \lyricsto Soprano \FacMeSopranoLyrics
+          \new Lyrics \lyricsto Soprano \VirgoSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \FacMeAlto }
+            \new Voice = "Alto" { \dynamicUp \VirgoAlto }
           }
-          \new Lyrics \lyricsto Alto \FacMeAltoLyrics
+          \new Lyrics \lyricsto Alto \VirgoAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \FacMeTenore }
+            \new Voice = "Tenore" { \dynamicUp \VirgoTenore }
           }
-          \new Lyrics \lyricsto Tenore \FacMeTenoreLyrics
+          \new Lyrics \lyricsto Tenore \VirgoTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \FacMeBasso }
+            \new Voice = "Basso" { \dynamicUp \VirgoBasso }
           }
-          \new Lyrics \lyricsto Basso \FacMeBassoLyrics
+          \new Lyrics \lyricsto Basso \VirgoBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \FacMeOrgano
+            \VirgoOrgano
           }
         >>
-        \new FiguredBass { \FacMeBassFigures }
+        \new FiguredBass { \VirgoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 120 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

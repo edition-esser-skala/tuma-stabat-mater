@@ -39,7 +39,7 @@ StabatOrgano = {
     d8 b' g a fis g e f?
     d es c d b g16 a b a b c
     d1 %35
-    g,4 r r2\fermata \bar "|." %36 finis
+    g,4 r r2\fermata \bar "||" %36 finis
   }
 }
 
@@ -114,7 +114,7 @@ OQuamOrgano = {
     g a2
     b a4
     gis a2
-    d, r4\fermata \bar "|." %29 finis
+    d, r4\fermata \bar "||" %29 finis
   }
 }
 
@@ -173,7 +173,7 @@ QuisEstOrgano = {
     a1~-\tasto
     \once \tieDashed a~
     a
-    d,2 r\fermata \bar "|." %20 finis
+    d,2 r\fermata \bar "||" %20 finis
   }
 }
 
@@ -228,7 +228,7 @@ ProPeccatisOrgano = {
     R1*3
     \tempoDumEmisit r4 g8\f f es c r4 %25
     r c'8 b as f r4
-    \tempoSpiritum R1\fermata \bar "|." %27 finis
+    \tempoSpiritum R1\fermata \bar "||" %27 finis
   }
 }
 
@@ -306,7 +306,7 @@ EiaMaterOrgano = {
     g r r %40
     c2 r4
     as b2
-    es,4 r r\fermata \bar "|." %43 finis
+    es,4 r r\fermata \bar "||" %43 finis
   }
 }
 
@@ -382,7 +382,7 @@ SanctaMaterOrgano = {
     c g c c %20
     as'8 r b r g r as r
     e r f r g4 g,
-    c r r2\fermata \bar "|." %23 finis
+    c r r2\fermata \bar "||" %23 finis
   }
 }
 
@@ -481,7 +481,7 @@ FacMeOrgano = {
     des'2 b c
     des r r
     b c c %65
-    f,1 r2\fermata \bar "|." %66 finis
+    f,1 r2\fermata \bar "||" %66 finis
   }
 }
 
@@ -552,4 +552,68 @@ FacMeBassFigures = \figuremode {
   <5>1.
   <6 [_-]>2 <4> <_!> %65
   r1. %66 finis
+}
+
+VirgoOrgano = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoVirgo
+    c'8\f c, r16 es( d c) as'8 as, r16 f'( es d)
+    g8 g, r16 es'( d c) es e f fis g8 g,
+    c' c, r16 es( d c) as'8 as, r16 f'( es d)
+    g8 g, r16 es'( d c) es e f fis g8 g,
+    c c' r16 es,( d c) f8 f, r16 d'( c b) %5
+    es8 es, r16 g'( f es) as8 as, r16 as'( g f)
+    b8 b, r16 g'( f es) g g as a b8 b,
+    es es, r16 g'( f es) b8 b' r16 d,( c b)
+    f'8 f, r16 as( g f) c'8 c' r16 es,( d c)
+    g'8 g, r16 b!( a g) c8 c' r16 \once \slurDashed a,( b c) %10
+    d8 d' r16 d,( e fis) g8 g, r16 \once \slurDashed b( a g)
+    d'4 r16 b a g c c b a d d c d
+    b8 g r16 es'( d c) f, f' es f g, g' f g
+    es8 c r16 \once \slurDashed es( d c) d8 d' r16 d, fis d
+    g8 g, r16 \once \slurDashed b( a g) b h c cis d8 d, %15
+    g g' r16 g, b g d'8 d' r16 \once \slurDashed fis,( e d)
+    g8 g, r16 \once \slurDashed b( a g) d'8 d' r16 \once \slurDashed fis,( e d)
+    g8 g, r16 \once \slurDashed h'( a g) c8 c, r16 \once \slurDashed es( d c)
+    f8 f, r16 \once \slurDashed as'( g f) b8 b, r16 \once \slurDashed d( c b)
+    es g as a b8 b, es4 r16 g( f es) %20
+    b'8 b, r16 d( c b) es8 es' r16 es,( d c)
+    g'8 g, r16 \once \slurDashed h( a g) c8 c' c, b?
+    as as' r as, g g' r g
+    c c, r16 \once \slurDashed es( d c) as'8 as, r16 \once \slurDashed f'( es d)
+    g8 g, r16 \once \slurDashed es'( d c) es e f fis g8. f16 %25
+    es8 c c'16 as g f es e f fis g8 g,
+    c4 r r2\fermata \bar "||" %27 finis
+  }
+}
+
+VirgoBassFigures = \figuremode {
+  r2 <7>8 <6> r16 <[_-]>8.
+  <7 _!>4 r16 <6>8. r4 <_!>
+  r2 <7>8 <6> r16 <[_-]>8.
+  <7 _!>4 r16 <6>8. \bo <[6 \l]>8 <_->16 \bc <[7 _!]> <5 4>8 <\t _!>
+  r2 <_->4 r16 <6>8. %5
+  \bo <[4-]>8 \bc <[3]> r16 <6>8. <9>8 <8>4.
+  <7->8 <6>16 <5> r <6>8. r8 <[6 5]>4.
+  r4 r16 <6>8. <5 4>4 <\t 3>
+  <5 4> <\t _-> <5 4> <\t 3>
+  <4> <_-> <6!>2 %10
+  \bo <9 [_+]>4 \bc <8 [\t]>2.
+  \bo <[6 4]>8 <5 _+> r16 <6>8. <_!>4 <_+>
+  <6> r16 <6>8. <_!>4 q
+  <6>2 \bc <[7 _+]>
+  \bo <[9 \l \l]>8 <8> r16 <6>8. <\t>8 <6 5 _->16 \bc <[\t \t _!]> <_+>4 %15
+  r2 <6 4>8 <5 _+>4.
+  r2 <6 4>8 <[5] _+>4.
+  r4 r16 <6>8. r2
+  <_->1
+  r8 <[6 5]> <4> <3> r2 %20
+  \bo <[6 4]>8 <5 \t> \bc <[\t 3]>2 r16 <6>8.
+  <6 4>8 <[5] _!>4. \bo <[9 4]>8 <8 3>4 \bc <[6 \l]>8
+  <7>4 <6> <_!>2
+  <9>8 <8>4. <7>8 <6> r16 <[_-]>8.
+  <7 _!>8 <6 \t>16 <5 \t> r \bo <[6 \l]>8. <\t>8 <_->16 \bc <[7 _!]> <4>8 <_!>16 <\t> %25
+  <6>4 \bo <[6-]>8. \bassFigureExtendersOn \bc q16 \bassFigureExtendersOff <6>8 \bo <[6 5 _-]>16 \bc <[\t \t _!]> <_!>4
+  r1 %27 finis
 }

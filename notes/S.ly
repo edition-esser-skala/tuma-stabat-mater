@@ -50,7 +50,7 @@ StabatSoprano = {
     d8 d4 c b a8~
     a g4 fis8 b2~
     b4 a8[ g] a4. a8 %35
-    g4 r r2\fermata \bar "|." %36 finis
+    g4 r r2\fermata \bar "||" %36 finis
   }
 }
 
@@ -91,30 +91,6 @@ StabatSopranoLyrics = \lyricmode {
   gla -- _ _
   _ _ di -- %35
   us. %36 finis
-
-  % Vir -- go vir -- gi -- num prae -- cla -- ra,
-  % mi -- hi iam non sis a -- ma -- ra,
-  % fac me te -- cum plan -- ge -- re.
-  %
-  % Fac, ut por -- tem Chri -- sti mor -- tem,
-  % pas -- si -- o -- nis fac con -- sor -- tem
-  % et pla -- gas re -- co -- le -- re.
-  %
-  % Fac me pla -- gis vul -- ne -- ra -- ri,
-  % cru -- ce hac in -- e -- bri -- a -- ri
-  % ob a -- mo -- rem fi -- li -- i.
-  %
-  % In -- flam -- ma -- tis et ac -- cen -- sus
-  % per te, vir -- go, sim de -- fen -- sus
-  % in di -- e iu -- di -- ci -- i.
-  %
-  % Fac me cru -- ce cu -- sto -- di -- ri,
-  % mor -- te Chri -- sti prae -- mu -- ni -- ri,
-  % con -- fo -- ve -- ri gra -- ti -- a.
-  %
-  % Quan -- do cor -- pus mo -- ri -- e -- tur,
-  % fac ut a -- ni -- ma do -- ne -- tur
-  % pa -- ra -- di -- si glo -- ri -- ae.
 }
 
 OQuamSoprano = {
@@ -149,7 +125,7 @@ OQuamSoprano = {
     r f f
     \tuplet 3/2 4 { f8([ e d)] } d2~
     d4 cis4. cis8
-    d2 r4\fermata \bar "|." %29 finis
+    d2 r4\fermata \bar "||" %29 finis
   }
 }
 
@@ -207,7 +183,7 @@ QuisEstSoprano = {
     cis4 r8 cis d4( e)
     a, cis d( h)
     cis d d( cis8.) cis16
-    d2 r\fermata \bar "|." %20 finis
+    d2 r\fermata \bar "||" %20 finis
   }
 }
 
@@ -259,7 +235,7 @@ ProPeccatisSoprano = {
     c2\cresc h
     \tempoDumEmisit r4 h8\f h c16([ d)] es8 r4
     r c8 c c16([ b)] c8 r4
-    \tempoSpiritum g8\p r g r g r r4\fermata \bar "|."
+    \tempoSpiritum g8\p r g r g r r4\fermata \bar "||"
   }
 }
 
@@ -333,7 +309,7 @@ EiaMaterSoprano = {
     es8[ g as b c d] %40
     es[ d] es4 r
     c8([ as)] g4( as8) f
-    es4 r r\fermata \bar "|." %43 finis
+    es4 r r\fermata \bar "||" %43 finis
   }
 }
 
@@ -409,7 +385,7 @@ SanctaMaterSoprano = {
     g, g g8([ c)] es4 %20
     es8 d16([ c)] d8 r d c16([ h)] c8 r
     c b as r g4. g8
-    g4 r r2\fermata \bar "|." %23 finis
+    g4 r r2\fermata \bar "||" %23 finis
   }
 }
 
@@ -508,7 +484,7 @@ FacMeSoprano = {
     f, f e
     f r r
     des'4( b) g2. g4 %65
-    f1 r2\fermata \bar "|." %66 finis
+    f1 r2\fermata \bar "||" %66 finis
   }
 }
 
@@ -580,3 +556,62 @@ FacMeSopranoLyrics = \lyricmode {
   de -- si -- de -- %65
   ro. %66 finis
 }
+
+VirgoSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoVirgo
+    R1*7 %7
+    b'4\fE es es d
+    c f f es
+    d4. d8 es2~ %10
+    es4 d8([ c)] b4. b8
+    b a r4 r2
+    r4 g a!( h)
+    c c c8([ a16 b] c4)
+    b2~ b8 a a8. a16 %15
+    g4 r r8 a4 a8
+    b4 b r8 d d a
+    b b r4 r c8 c
+    c4 c r d
+    es8 es es d es4 r %20
+    r2 r4 c8 c
+    c16([ h)] h8 d d d16([ c)] c8 es d
+    c2 h4 r8 d
+    es4 es8 es c4. d8
+    h4 c c4. h8 %25
+    c4 r8 c c4( h8.) h16
+    c4 r r2\fermata \bar "||" %27 finis
+  }
+}
+
+VirgoSopranoLyrics = \lyricmode {
+  Fac, ut por -- tem %8
+  Chri -- sti mor -- tem,
+  pas -- si -- o -- %10
+  nis __ fac con --
+  sor -- tem
+  et pla --
+  gas, et pla --
+  gas __ re -- co -- le -- %15
+  re. Vul -- ne --
+  ra -- ri, in -- e -- bri --
+  a -- ri et cru --
+  o -- re, cru --
+  o -- re fi -- li -- i. %20
+  Per te,
+  vir -- go, per te, vir -- go, sim de --
+  fen -- sus in
+  di -- e iu -- di -- ci --
+  i, iu -- di -- ci -- %25
+  i, iu -- di -- ci --
+  i. %27 finis
+}
+
+% Fac me cru -- ce cu -- sto -- di -- ri,
+% mor -- te Chri -- sti prae -- mu -- ni -- ri,
+% con -- fo -- ve -- ri gra -- ti -- a.
+%
+% Quan -- do cor -- pus mo -- ri -- e -- tur,
+% fac ut a -- ni -- ma do -- ne -- tur
+% pa -- ra -- di -- si glo -- ri -- ae.

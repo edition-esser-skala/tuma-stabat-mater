@@ -39,7 +39,7 @@ StabatBasso = {
     d8 b'[ g a] fis[ g e f?]
     d[ es c d] b[ g16 a] b[ a b c]
     d2~ d4. d8 %35
-    g,4 r r2\fermata \bar "|." %36 finis
+    g,4 r r2\fermata \bar "||" %36 finis
   }
 }
 
@@ -108,7 +108,7 @@ OQuamBasso = {
     g a2
     b( a4)
     gis a4. a8
-    d2 r4\fermata \bar "|." %29 finis
+    d2 r4\fermata \bar "||" %29 finis
   }
 }
 
@@ -160,7 +160,7 @@ QuisEstBasso = {
     a1~
     a
     a4 a a4. a8
-    d2 r\fermata \bar "|." %20 finis
+    d2 r\fermata \bar "||" %20 finis
   }
 }
 
@@ -217,7 +217,7 @@ ProPeccatisBasso = {
     as2\cresc g
     \tempoDumEmisit r4 g'8\f f es c r4 %25
     r c'8 b as f r4
-    \tempoSpiritum g,8\p r g r c r r4\fermata \bar "|." %27 finis
+    \tempoSpiritum g,8\p r g r c r r4\fermata \bar "||" %27 finis
   }
 }
 
@@ -297,7 +297,7 @@ EiaMaterBasso = {
     g r r %40
     c c r
     as b4. b8
-    es,4 r r\fermata \bar "|." %43 finis
+    es,4 r r\fermata \bar "||" %43 finis
   }
 }
 
@@ -373,7 +373,7 @@ SanctaMaterBasso = {
     g8([ c,)] h([ f')] es4 c %20
     as'8 r b r g r as r
     e r f r g4. g8
-    c,4 r r2\fermata \bar "|." %23 fisnis
+    c,4 r r2\fermata \bar "||" %23 fisnis
   }
 }
 
@@ -471,7 +471,7 @@ FacMeBasso = {
     des'2 b c
     des r r
     b c2. c4 %65
-    f,1 r2\fermata \bar "|." %66 finis
+    f,1 r2\fermata \bar "||" %66 finis
   }
 }
 
@@ -540,4 +540,55 @@ FacMeBassoLyrics = \lyricmode {
   ro,
   de -- si -- de -- %65
   ro. %66 finis
+}
+
+VirgoBasso = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \autoBeamOff \tempoVirgo
+    R1*7 %7
+    r2 f4\fE b
+    b as g c
+    c b! a4. g8 %10
+    fis4 fis g4. g8
+    g fis d4 e( fis)
+    g g f4.( g16[ f)]
+    es4 g fis a~
+    a8[ g16 fis] g8 g g4( fis8.) fis16 %15
+    g4 r r8 d4 fis8
+    g4 g, r8 d' d d
+    g g, g' h c4 c,
+    r as'8 f b4 b,
+    r b8. b16 es4 r %20
+    r2 r4 es8 c
+    g' g h, g c c c b?
+    as2 g4 r8 g'
+    c c, r c as' as, r f'
+    g g, r c es f16 fis g8. f?16 %25
+    es4 r8 f es f16 fis g8. g16
+    c,4 r r2\fermata \bar "||" %27 finis
+  }
+}
+
+VirgoBassoLyrics = \lyricmode {
+  Fac, ut %8
+  por -- tem Chri -- sti
+  mor -- tem, pas -- si -- %10
+  o -- nis fac con --
+  sor -- tem et pla --
+  gas, et pla --
+  gas, et pla -- _
+  gas re -- co -- le -- %15
+  re. Vul -- ne --
+  ra -- ri, in -- e -- bri --
+  a -- ri et cru -- o -- re,
+  et cru -- o -- re
+  fi -- li -- i. %20
+  Per te,
+  vir -- go, per te, vir -- go, sim de --
+  fen -- sus in
+  di -- e, in di -- e, in
+  di -- e, in di -- e iu -- di -- ci -- %25
+  i, in di -- e iu -- di -- ci --
+  i. %27 finis
 }

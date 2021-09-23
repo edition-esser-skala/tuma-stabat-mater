@@ -699,6 +699,7 @@ tempoProPeccatis = \tempoMarkup "Vivace"
 tempoEiaMater = \tempoMarkup "Larghetto"
 tempoSanctaMater = \tempoMarkup "Un poco adagio"
 tempoFacMe = \tempoMarkup "Andante"
+tempoVirgo = \tempoMarkup "Tempo giusto"
 
 
 \include "notes/S.ly"
