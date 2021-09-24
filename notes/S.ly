@@ -15,7 +15,7 @@ StabatSoprano = {
   \relative c' {
     \clef treble
     \key g \minor \time 4/4 \autoBeamOff \tempoStabat
-    d'2~\fE d4 b
+    \mvDll d'2~_\fE d4 b
     g g r es'~
     es d2 c4~
     c h c c~
@@ -363,7 +363,7 @@ SanctaMaterSoprano = {
   \relative c' {
     \clef treble
     \key c \dorian \time 4/4 \autoBeamOff \tempoSanctaMater
-    g'8([\fE c)] es([ d)] c([ h)] c4
+    \mvDll g'8([_\fE c)] es([ d)] c([ h)] c4
     c4. b8 as([ g)] as r
     h4 c d8 g, es' d16([ c)]
     h([ a)] g8 r4 es des'
