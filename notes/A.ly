@@ -608,3 +608,143 @@ VirgoAltoLyrics = \lyricmode {
   i, in di -- e iu -- di -- ci --
   i. %27 finis
 }
+
+ChristeAlto = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoChriste
+    r2 f4\fE f
+    f8 f f f f4 f
+    f4. f8 f2
+    es4 g8 g f4 f
+    r r8 a b2 %5
+    f g
+    c,4 d8([ es)] f4. f8
+    f2 r\fermata
+    b,4. b8 c4 b
+    r2 d4\pE d %10
+    d2. c4
+    d1\fermata
+    \tempoFacUt R1*2
+    r2 d4\fE d %15
+    es4. d16([ c)] g'4 b
+    cis,2 d4. d8
+    es!2 d4 g~
+    g8 d g2 g4
+    a16[ g fis es!] d[ c b a] b8[ g] g'4~ %20
+    g fis g g8 f16([ es)]
+    d8 d g[ a16 b] a2~
+    \once \tieDashed a4~ a8[ fis] d2
+    es4 d d d8 f
+    g4 g c,4. c8 %25
+    b b'16([ a] g4. f!8 e8.) e16
+    d4 r e8 a, a'4~
+    a8 g f4( e4.) a8
+    f d16[ e] f[ e f g] a8[ d,] a'[ g16 a]
+    b8[ a] g[ a16 b] a4. g8 %30
+    f4 r es!4. es8
+    d4. g8 es[ c16 d] es[ d es f]
+    g8[ c,] g'[ f16 g] as8[ g] f[ g16 as]
+    g4. f8 es4 es8 es
+    d g, g'4~ g8[ c,] f4~ %35
+    f e f8 f16[ g] as[ g as b]
+    c8[ f,] c'[ b16 c] des8[ c] b4
+    c4. c8 c,4 r
+    r2 f8 f, f' g
+    c,4 c8 c des4 c %40
+    c r r2
+    R1
+    g'8 g, g' g fis8.[ e16] d8[ c16 d]
+    es4 d d r
+    R1*2 %46
+    r2 f4 f
+    g4. f16([ es)] as4 c
+    d,2 es4 r
+    R1 %50
+    b'8 b, b' b as4. as8
+    g2 f8 b, b' b
+    b4 as g4. a8
+    b[ as] g4 f4. g8
+    g4 as8 g fis4. fis8 %55
+    e4. fis8 g[ d] g4~
+    g fis g r
+    d d es4. d16([ c)]
+    d4 d es8([ f] g[ es16 d]
+    c2) d8 fis g4~ %60
+    g fis fis4. fis8
+    g4 a fis g
+    e fis d g,
+    a8 fis'( g2) fis4
+    g r \tempoAmen r2 %65
+    g1
+    g\fermata \bar "|." %67 FINIS
+  }
+}
+
+ChristeAltoLyrics = \lyricmode {
+  Chri -- ste,
+  cum sit hinc ex -- i -- re,
+  fac per ma --
+  trem me ve -- ni -- re
+  ad pal -- %5
+  mam, pal --
+  mam vi -- cto -- ri --
+  ae.
+  Quan -- do cor -- pus
+  mo -- ri -- %10
+  e -- _
+  tur,
+
+  fac ut %15
+  a -- ni -- mae do --
+  ne -- tur, do --
+  ne -- tur pa --
+  ra -- di -- si
+  glo -- _ _ _ %20
+  ri -- a, pa -- ra --
+  di -- si glo -- _
+  _
+  _ ri -- a, pa -- ra --
+  di -- si glo -- ri -- %25
+  a, glo -- ri --
+  a, pa -- ra -- di --
+  si glo -- ri --
+  a, glo -- _ _ _
+  _ _ _ ri -- %30
+  a, pa -- ra --
+  di -- si glo -- _
+  _ _ _ _
+  _ ri -- a, pa -- ra --
+  di -- si glo -- _ %35
+  ri -- a, glo -- _
+  _ _ _ _
+  _ ri -- a,
+  pa -- ra -- di -- si
+  glo -- ri -- a, glo -- ri -- %40
+  a,
+
+  pa -- ra -- di -- si glo -- _
+  _ ri -- a,
+
+  fac ut %47
+  a -- ni -- mae do --
+  ne -- tur
+  %50
+  pa -- ra -- di -- si glo -- ri --
+  a, pa -- ra -- di -- si
+  glo -- _ _ _
+  _ _ _ ri --
+  a, pa -- ra -- di -- si %55
+  glo -- _ _ _
+  ri -- a,
+  fac ut a -- ni --
+  mae do -- ne --
+  tur, do -- ne -- %60
+  tur pa -- ra --
+  di -- si glo -- _
+  _ _ _ ri --
+  a, glo -- ri --
+  a. %65
+  A --
+  men. %67 FINIS
+}

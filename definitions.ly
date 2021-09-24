@@ -700,6 +700,9 @@ tempoEiaMater = \tempoMarkup "Larghetto"
 tempoSanctaMater = \tempoMarkup "Un poco adagio"
 tempoFacMe = \tempoMarkup "Andante"
 tempoVirgo = \tempoMarkup "Tempo giusto"
+tempoChriste = \tempoMarkup "Adagio"
+  tempoFacUt = \tempoMarkup "Andante"
+  tempoAmen = \tempoMarkup "Adagio"
 
 
 \include "notes/S.ly"

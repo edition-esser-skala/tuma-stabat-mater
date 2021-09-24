@@ -608,10 +608,140 @@ VirgoSopranoLyrics = \lyricmode {
   i. %27 finis
 }
 
-% Fac me cru -- ce cu -- sto -- di -- ri,
-% mor -- te Chri -- sti prae -- mu -- ni -- ri,
-% con -- fo -- ve -- ri gra -- ti -- a.
-%
-% Quan -- do cor -- pus mo -- ri -- e -- tur,
-% fac ut a -- ni -- ma do -- ne -- tur
-% pa -- ra -- di -- si glo -- ri -- ae.
+ChristeSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoChriste
+    r2 f'4\fE c
+    es8 es f c d4 d
+    b4. b8 as2
+    g4 c8 b b4 a8 c
+    a[( f a c] f2) %5
+    f4 d2 c8([ b)]
+    a4 b b( a8.) a16
+    b2 r\fermata
+    d,4. d8 es4 d
+    d\p d b'2~ %10
+    b4. a8 g2~
+    g4 fis8[ e] fis2\fermata
+    \tempoFacUt g4\fE g b4. a16([ g)]
+    c4 es fis,2
+    g8 a b([ c] d) a d4~ %15
+    d8 g, c es d[ e16 fis?] g[ f e d]
+    e[ d cis b!] a[ g f e] f8[ d] d'4~
+    d8[ c16 h] c4~ c8[ b?16 a] b8[ c]
+    d8.[ c16] b8[ d] es[ d] c[ b16 c]
+    d2~ d8[ c16 d] es8. es16 %20
+    a,2 r
+    R1*2
+    a4 a b4. a16([ g)]
+    c4 es fis,2 %25
+    g4 r r2
+    a8 d, d' d d4 c!8 c
+    b8. b16 a8 d4( cis16[ h] cis8.) cis16
+    d4 r r2
+    R1 %30
+    a8 d, d' d d[ g,] c4~
+    c8[ h16 a] h8. h16 c4 r
+    R1
+    r2 g8 c, c' c
+    c4 b! as4. as8 %35
+    g4. g8 f4 r
+    R1*3
+    r2 g4 g %40
+    as4. g16([ f)] b4 des
+    e,2 f4 r
+    R1
+    a4 a b4. a16([ g)]
+    c4 es fis,2 %45
+    g4 r as4. b8
+    g4. b8 c4 b
+    b8 es[ b es] c[ d] es[ d16 es]
+    f[ es d c] b[ as g f] g f es8 r4
+    r2 c'8 f, f' f %50
+    d4 es2 d4
+    es4. es8 d4 r
+    c8 f, f' f f[ es16 d] es4
+    d8[ b] es2 d4~
+    d8[ es16 d] c8 b! a! d, d' d %55
+    d[ g,] c!2 b4
+    a4. a8 g4 r
+    r2 g4 g
+    b4. a16([ g)] c4 es
+    fis,2 g8 a b4~ %60
+    b a d8 d, d' d
+    d[ c16 h] c4~ c8[ b?16 a] b4~
+    b8[ a16 g] a4~ a8[ g16 fis] g8 e
+    fis a( b[ a16 g] a4.) a8
+    g4 r \tempoAmen r d'~ %65
+    d c8[ h] c2~
+    c4 h8[ a] h2\fermata \bar "|." %67 FINIS
+  }
+}
+
+ChristeSopranoLyrics = \lyricmode {
+  Chri -- ste,
+  cum sit hinc ex -- i -- re,
+  fac per ma --
+  trem me ve -- ni -- re ad
+  pal -- %5
+  mam, ad pal --
+  mam vi -- cto -- ri --
+  ae.
+  Quan -- do cor -- pus
+  mo -- ri -- e -- %10
+  _ _
+  _ tur,
+  fac ut a -- ni --
+  mae do -- ne --
+  tur, do -- ne -- tur pa -- %15
+  ra -- di -- si glo -- _
+  _ _ _ _
+  _ _
+  _ _ _ _
+  _ _ ri -- %20
+  a,
+
+  fac ut a -- ni -- %24
+  mae do -- ne -- %25
+  tur
+  pa -- ra -- di -- si glo -- ri -- a,
+  glo -- ri -- a, glo -- ri --
+  a,
+  %30
+  pa -- ra -- di -- si glo -- _
+  _ ri -- a,
+
+  pa -- ra -- di -- si,
+  pa -- ra -- di -- si %35
+  glo -- ri -- a,
+
+  fac ut %40
+  a -- ni -- mae do --
+  ne -- tur,
+
+  fac ut a -- ni --
+  mae do -- ne -- %45
+  tur pa -- ra --
+  di -- si glo -- ri --
+  a, glo -- _ _
+  _ _ _ ri -- a,
+  pa -- ra -- di -- si %50
+  glo -- _ _
+  _ ri -- a,
+  pa -- ra -- di -- si glo -- _
+  _ _ _
+  ri -- a, pa -- ra -- di -- si %55
+  glo -- _ _
+  _ ri -- a,
+  fac ut
+  a -- ni -- mae do --
+  ne -- tur, do -- ne -- %60
+  tur pa -- ra -- di -- si
+  glo -- _ _
+  _ _ ri --
+  a, glo -- ri --
+  a. A -- %65
+  _ _
+  _ men. %67 FINIS
+}

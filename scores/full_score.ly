@@ -391,47 +391,93 @@
   %     \midi { \tempo 2 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     number = "8"
+  %     title = "V I R G O   V I R G I N U M  P R Æ C L A R A"
+  %   }
+  %   \tocSection "8" "Virgo virginum praeclara"
+  %   \score {
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \VirgoSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \VirgoSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \VirgoAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \VirgoAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \VirgoTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \VirgoTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \VirgoBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \VirgoBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \VirgoOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \VirgoBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
     \header {
-      number = "8"
-      title = "V I R G O   V I R G I N U M  P R Æ C L A R A"
+      number = "9"
+      title = "C H R I S T E,   C U M   S I T   H I C   E X I R E"
     }
-    \tocSection "8" "Virgo virginum praeclara"
+    \tocSection "9" "Christe, cum sit hic exire"
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \VirgoSoprano }
+            \new Voice = "Soprano" { \dynamicUp \ChristeSoprano }
           }
-          \new Lyrics \lyricsto Soprano \VirgoSopranoLyrics
+          \new Lyrics \lyricsto Soprano \ChristeSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \VirgoAlto }
+            \new Voice = "Alto" { \dynamicUp \ChristeAlto }
           }
-          \new Lyrics \lyricsto Alto \VirgoAltoLyrics
+          \new Lyrics \lyricsto Alto \ChristeAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \VirgoTenore }
+            \new Voice = "Tenore" { \dynamicUp \ChristeTenore }
           }
-          \new Lyrics \lyricsto Tenore \VirgoTenoreLyrics
+          \new Lyrics \lyricsto Tenore \ChristeTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \VirgoBasso }
+            \new Voice = "Basso" { \dynamicUp \ChristeBasso }
           }
-          \new Lyrics \lyricsto Basso \VirgoBassoLyrics
+          \new Lyrics \lyricsto Basso \ChristeBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \VirgoOrgano
+            \ChristeOrgano
           }
         >>
-        \new FiguredBass { \VirgoBassFigures }
+        \new FiguredBass { \ChristeBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 90 }

@@ -592,3 +592,132 @@ VirgoBassoLyrics = \lyricmode {
   i, in di -- e iu -- di -- ci --
   i. %27 finis
 }
+
+ChristeBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoChriste
+    r2 a4\fE a
+    a8 a a a b4 b
+    d4. d8 d2
+    es4 es8 e f4 f,
+    r r8 f' d([ b d f] %5
+    b2) es,
+    f f,4. f8
+    b2 r\fermata
+    g4. g8 g4 g
+    r2 g4\pE g %10
+    es'1
+    d\fermata
+    \tempoFacUt R1*8 %20
+    d4 d es4. d16([ c)]
+    g'4 b cis,2
+    d8 e fis[ e16 fis] g8[ d] g4~
+    g fis g8 g, g' f?
+    es[ d] c[ c'16 b] a[ g fis es!] d[ c b a] %25
+    b8[ g] g'16[ f e d] cis8[ d a'] a,
+    d4 r r2
+    R1
+    d4 d f4. e16([ d)]
+    g4 b cis,2 %30
+    d4 r r2
+    r c4 c
+    es4. d16([ c)] f4 as
+    h,2 c4 r
+    R1 %35
+    r2 f4 f
+    as4. g16([ f)] b4 des
+    e, e f8 f, f' f
+    f4 es d!4. e8
+    f[ c] f2 e8 e %40
+    f f, f' es des[ c] b[ b'16 as]
+    g[ f e des] c[ b as g] as8[ f] f'4~
+    f es d g~
+    g fis8 fis g g, g' f?
+    es[ d] c[ c'16 b] a[ g fis es!] d[ c b a] %45
+    b8[ g] g'4~ g8[ c,] f4~
+    f8[ b,] es2 d4
+    es r r2
+    R1
+    b'8 b, b' b b4 as~ %50
+    as g f8[ g16 as] b[ as g f]
+    g8[ es16 f] g[ f g as] b8. b,16 b4
+    b1~
+    b2~ b4 h8 h
+    c4. cis8 d4 r %55
+    R1
+    d4 d es!4. d16([ c)]
+    g'4. f8 es4 c
+    g'8 g, g' f es[ d] c[ c'16 b]
+    a[ g fis es!] d[ c b a] b8[ a] g16[ a] b([ c]) %60
+    d2 d~
+    d1~
+    d~
+    d2. d4
+    g, r\tempoAmen r2 %65
+    c1
+    g\fermata \bar "|." %67 FINIS
+  }
+}
+
+ChristeBassoLyrics = \lyricmode {
+  Chri -- ste,
+  cum sit hinc ex -- i -- re,
+  fac per ma --
+  trem me ve -- ni -- re
+  ad pal -- %5
+  mam
+  vi -- cto -- ri --
+  ae.
+  Quan -- do cor -- pus
+  mo -- ri -- %10
+  e --
+  tur,
+
+  fac ut a -- ni -- %21
+  mae do -- ne --
+  tur, do -- ne -- _ _
+  tur pa -- ra -- di -- si
+  glo -- _ _ _ %25
+  _ _ _ ri --
+  a,
+
+  fac ut a -- ni --
+  mae do -- ne -- %30
+  tur,
+  fac ut
+  a -- ni -- mae do --
+  ne -- tur,
+  %35
+  fac ut
+  a -- ni -- mae do --
+  ne -- tur pa -- ra -- di -- si
+  glo -- _ _ _
+  _ _ ri -- a, %40
+  pa -- ra -- di -- si glo -- _
+  _ _ _ _
+  _ _ _
+  ri -- a, pa -- ra -- di -- si
+  glo -- _ _ _ %45
+  _ _ _
+  _ ri --
+  a,
+
+  pa -- ra -- di -- si glo -- _ %50
+  _ _ _
+  _ _ _ ri -- a,
+  glo --
+  ri -- a,
+  glo -- ri -- a, %55
+
+  fac ut a -- ni --
+  mae do -- ne -- tur
+  pa -- ra -- di -- si glo -- _
+  _ _ _ _ ri -- %60
+  a, glo --
+
+  ri -- %64
+  a. %65
+  A --
+  men. %67 FINIS
+}

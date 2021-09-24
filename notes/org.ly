@@ -617,3 +617,170 @@ VirgoBassFigures = \figuremode {
   <6>4 \bo <[6-]>8. \bassFigureExtendersOn \bc q16 \bassFigureExtendersOff <6>8 \bo <[6 5 _-]>16 \bc <[\t \t _!]> <_!>4
   r1 %27 finis
 }
+
+ChristeOrgano = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoChriste
+    a1~\fE
+    a2 b
+    d1
+    es4. e8 f4 f,
+    r r8 f' d b d f %5
+    b4 b, es2
+    f,1
+    b2 r\fermata
+    g1-\senzaOrg
+    R1*2 %11
+    R1\fermata
+    \clef treble \tempoFacUt g''4 g b4. a16 g
+    c4 es fis,2
+    << {
+      g8 a b c d a d4~ %15
+      d8 g, c es d e16 fis? g f e d
+      e d cis b! a g f e f8 d d'4 ~
+      d8 c16 h c4
+    } \\ {
+      s2 d,4 d %15
+      es4. d16 c g'4 b
+      cis,2 d4. d8
+      es!2
+    } >> \clef "treble_8" g,4 g
+    b4. a16 g c4 es
+    fis,2 g4 c8 b %20
+    \clef bass d,4 d es4. d16 c
+    g'4 b cis,2
+    d8 e fis e16 fis g8 d g4~
+    g fis g8 g, g' f?
+    es d c c'16 b a g fis es! d c b a %25
+    b8 g g'16 f e d cis8 d a' a,
+    d4 \clef treble << {
+      d''2 c!4
+      b a8 d
+    } \\ {
+      r4 e,8 a, \once \tieDashed a'4~
+      a8 g f4
+    } >> \clef "treble_8" a,4 a
+    \clef bass d, d f4. e16 d
+    g4 b cis,2 %30
+    d4 \clef treble << { d''~ d8 g, c4 } \\ { r es,!4. es8 } >>
+    \clef "treble_8" g,4 g \clef bass c, c
+    es4. d16 c f4 as
+    h,2 c4 \clef treble << {
+      c''
+      c b! as4. as8 %35
+    } \\ {
+      es4 d8 g, \once \tieDashed g'4~ g8 c, f4 %35
+    } >>
+    \clef "treble_8" c4 c \clef bass f, f
+    as4. g16 f b4 des
+    e,2 f8 f, f' f
+    f4 es d!4. e8
+    f c f2 e4 %40
+    f8 f, f' es des c b b'16 as
+    g f e des c b as g as8 f f'4~
+    f es d g~
+    g fis g8 g, g' f?
+    es d c c'16 b a g fis es! d c b a %45
+    b8 g g'4 ~ g8 c, f4~
+    f8 b, es2 d4
+    es \clef treble << {
+      b''8 es c d es d16 es
+      f es d c b as g f
+    } \\ {
+      g8-\critnote f16 es as4 c
+      d,2
+    } >> \clef "treble_8" es8 es, es'-! es-!
+    \clef bass b b, b' b b4 \once \tieDashed as~ %50
+    as g f8 g16 as b as g f
+    g8 es16 f g f g as b4 b,-\tasto
+    b1~
+    b2~ b4 h
+    c4. cis8 d4 \clef treble << {
+      d''~ %55
+      d8 g, c!2 b4
+    } \\ {
+      fis4 %55
+      e4. fis8 g d g4
+    } >>
+    \clef bass d,4 d es!4. d16 c
+    g'4. f8 es4 c
+    g'8 g, g' f es d c c'16 b
+    a g fis es! d c b a b8 a g16 a b c %60
+    << {
+      \oneVoice d1~
+      d1~
+      d~
+      d
+    } \\ {
+      s2 s-\tasto
+      s1
+      s
+      s
+    } >>
+    g,4 r\tempoAmen r2 %65
+    c1
+    g\fermata \bar "|." %67 FINIS
+  }
+}
+
+ChristeBassFigures = \figuremode {
+  <6>1
+  <6 5>2 <10 9>4 <\t 8>
+  <6>2 <6 5->
+  \bo <[5 \l]>4 \bc <[8 6]>8 <7 5> <5 4>4 <\t _!>
+  r2 <6> %5
+  r <7>4 <6>8 <5>
+  <7 5>4 <6 4> <5 \t> <\t 3>
+  r1*10 %17
+  r2 <5 4>4 <\t 3>
+  <6>2. <[6]>4
+  <6>1 %20
+  <5 4>4 <\t _+> <7> <6>
+  <4>8 <3> <6>4 <6 [_!]>2
+  r4 <[6]>2.
+  <2>4 <6>2.
+  <6>2 <6\\> %25
+  <6> <[5 _!]>4 <5! 4>8 <\t _+>
+  r1
+  r2 <5! 4>4 <\t _+>
+  <6> <5> <6>2
+  r4 <[6]> <6 [_!]>2 %30
+  r1
+  <5 4>4 <\t _!> <6-> <5>
+  <6>2 <_->4 <6>
+  <6>1
+  r %35
+  <5 4>4 <\t _!> <6- _->4 <5 \t>
+  <6>2 <_->4 <6>
+  <6>2 <_->
+  <5 2>4 <6> <7> <6>8 <[6 5]>
+  <_->2 <6- 4 2>4 <6> %40
+  <_->2 <6>4 <_->
+  <6!>2 <6>4 <[_-]>
+  <4! 2> <6> <[7 5!] _+> <_->
+  <4 2> <6> <_->2
+  <6> <6\\> %45
+  <6>4 <5>8 <6> <4 2->4 <5 _->8 <6 \t>
+  <4 2>4 <3> <4- 2> <6 [5-]>
+  r1
+  r
+  <4>4 <3> <4 2> <6> %50
+  <4 2> <6> <7 _-> <[7-]>
+  <6>1
+  r
+  r2. <6 5>4
+  <9 [5]> <8 6->8 <7 5 [_!]> <[5!] _+>2 %55
+  r1
+  <5 4>4 <\t _+>2.
+  r2 <6>
+  r <6>
+  <6\\> <6>8 <6\\>4. %60
+  <6 4>4 <5 _+>2.
+  r1
+  r
+  r2 <5 4>4 <\t _+>
+  r1 %65
+  <9>2 <8>
+  <5 4>4 \bassFigureExtendersOn <5 _!>8 <5 2> <5 _!>2 \bassFigureExtendersOff %67 FINIS
+}
